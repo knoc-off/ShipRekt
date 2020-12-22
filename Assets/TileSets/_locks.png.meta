@@ -1,0 +1,2315 @@
+fileFormatVersion: 2
+guid: 06b487fc8a402bd4289171a1ec406fd4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3865855547918465958
+    second: _locks_0
+  - first:
+      213: 6064924671536766962
+    second: _locks_1
+  - first:
+      213: 9143306880859586281
+    second: _locks_2
+  - first:
+      213: -8447982550554540988
+    second: _locks_3
+  - first:
+      213: -5589750862021469334
+    second: _locks_4
+  - first:
+      213: -6733025380518237841
+    second: _locks_5
+  - first:
+      213: -7174347577174418205
+    second: _locks_6
+  - first:
+      213: 1169743809255210433
+    second: _locks_7
+  - first:
+      213: 1758007713231584237
+    second: _locks_8
+  - first:
+      213: 4380119622638615799
+    second: _locks_9
+  - first:
+      213: 6641535937453694595
+    second: _locks_10
+  - first:
+      213: -5720154509886476923
+    second: _locks_11
+  - first:
+      213: 7786163124868851272
+    second: _locks_12
+  - first:
+      213: -889033949286619939
+    second: _locks_13
+  - first:
+      213: -2841955085490038688
+    second: _locks_14
+  - first:
+      213: 2139428358029464738
+    second: _locks_15
+  - first:
+      213: 5645421101511297303
+    second: _locks_16
+  - first:
+      213: -2757434582803849500
+    second: _locks_17
+  - first:
+      213: -8036954460275175873
+    second: _locks_18
+  - first:
+      213: 4160098555300740374
+    second: _locks_19
+  - first:
+      213: 3328534210791758207
+    second: _locks_20
+  - first:
+      213: -1197724837502439909
+    second: _locks_21
+  - first:
+      213: 2983687372532090543
+    second: _locks_22
+  - first:
+      213: -8491293780089747666
+    second: _locks_23
+  - first:
+      213: 1086647995599866718
+    second: _locks_24
+  - first:
+      213: -1782001256133331579
+    second: _locks_25
+  - first:
+      213: 7673400098186430383
+    second: _locks_26
+  - first:
+      213: 2372883448921647728
+    second: _locks_27
+  - first:
+      213: 6717489456161304051
+    second: _locks_28
+  - first:
+      213: 185667920151278543
+    second: _locks_29
+  - first:
+      213: 7329338252427708754
+    second: _locks_30
+  - first:
+      213: 7658776312683692144
+    second: _locks_31
+  - first:
+      213: 9008987290684940381
+    second: _locks_32
+  - first:
+      213: -8612539999762288663
+    second: _locks_33
+  - first:
+      213: -1844062088819295659
+    second: _locks_34
+  - first:
+      213: -5851005758943821989
+    second: _locks_35
+  - first:
+      213: 4365388511874710906
+    second: _locks_36
+  - first:
+      213: -7824675636796222951
+    second: _locks_37
+  - first:
+      213: 1231813903503117110
+    second: _locks_38
+  - first:
+      213: 1922993300238309146
+    second: _locks_39
+  - first:
+      213: 9152083244521511178
+    second: _locks_40
+  - first:
+      213: 5488138286103037147
+    second: _locks_41
+  - first:
+      213: 5604113513819675504
+    second: _locks_42
+  - first:
+      213: -6618283218657332686
+    second: _locks_43
+  - first:
+      213: -973377106286577779
+    second: _locks_44
+  - first:
+      213: -7858900399434354796
+    second: _locks_45
+  - first:
+      213: -6240926860818588402
+    second: _locks_46
+  - first:
+      213: -3229151751791430078
+    second: _locks_47
+  - first:
+      213: 1376746402557852194
+    second: _locks_48
+  - first:
+      213: 5990109118166442124
+    second: _locks_49
+  - first:
+      213: 4717486999831644930
+    second: _locks_50
+  - first:
+      213: 1605189741110446057
+    second: _locks_51
+  - first:
+      213: -7955731771420913619
+    second: _locks_52
+  - first:
+      213: 4275382177254686855
+    second: _locks_53
+  - first:
+      213: 1383423634568305028
+    second: _locks_54
+  - first:
+      213: -1884823411307837776
+    second: _locks_55
+  - first:
+      213: -1694645043553452328
+    second: _locks_56
+  - first:
+      213: -865658645852945438
+    second: _locks_57
+  - first:
+      213: -6456366263425922778
+    second: _locks_58
+  - first:
+      213: -7006489032535950969
+    second: _locks_59
+  - first:
+      213: -7947496619800542262
+    second: _locks_60
+  - first:
+      213: -5360944942236410533
+    second: _locks_61
+  - first:
+      213: 8308776627650637032
+    second: _locks_62
+  - first:
+      213: -7082033854157868364
+    second: _locks_63
+  - first:
+      213: 4984791558218772571
+    second: _locks_64
+  - first:
+      213: -6692577214551429193
+    second: _locks_65
+  - first:
+      213: 9012180404091193538
+    second: _locks_66
+  - first:
+      213: 9092558948905864103
+    second: _locks_67
+  - first:
+      213: -6669480147125586653
+    second: _locks_68
+  - first:
+      213: -2103750556059777846
+    second: _locks_69
+  - first:
+      213: -5974986069149288262
+    second: _locks_70
+  - first:
+      213: 7388731804832671206
+    second: _locks_71
+  - first:
+      213: 20030643509732238
+    second: _locks_72
+  - first:
+      213: 8211014650323087929
+    second: _locks_73
+  - first:
+      213: 4605458222114779634
+    second: _locks_74
+  - first:
+      213: -1073409018582331919
+    second: _locks_75
+  - first:
+      213: -5992845111793375722
+    second: _locks_76
+  - first:
+      213: -1315284968199018244
+    second: _locks_77
+  - first:
+      213: -6608731545903126392
+    second: _locks_78
+  - first:
+      213: 2935180343550273523
+    second: _locks_79
+  - first:
+      213: 3405847406878999190
+    second: _locks_80
+  - first:
+      213: -3048836765257696637
+    second: _locks_81
+  - first:
+      213: 2372523742815014500
+    second: _locks_82
+  - first:
+      213: -15495931170081909
+    second: _locks_83
+  - first:
+      213: 7527837621621928936
+    second: _locks_84
+  - first:
+      213: 9143666630402217412
+    second: _locks_85
+  - first:
+      213: -4120302573258783819
+    second: _locks_86
+  - first:
+      213: -2852268321433515547
+    second: _locks_87
+  - first:
+      213: -6397088156732422313
+    second: _locks_88
+  - first:
+      213: -3585191795102652524
+    second: _locks_89
+  - first:
+      213: 6361935309757682239
+    second: _locks_90
+  - first:
+      213: 6656483549972942639
+    second: _locks_91
+  - first:
+      213: 6935088770479534676
+    second: _locks_92
+  - first:
+      213: -8304970911904628135
+    second: _locks_93
+  - first:
+      213: -7117706362535180066
+    second: _locks_94
+  - first:
+      213: 6421644953108700755
+    second: _locks_95
+  - first:
+      213: -9108105964533247818
+    second: _locks_96
+  - first:
+      213: -3897727863553845088
+    second: _locks_97
+  - first:
+      213: 5447780527706985552
+    second: _locks_98
+  - first:
+      213: -685520048476991264
+    second: _locks_99
+  - first:
+      213: -3510497837161844410
+    second: _locks_100
+  - first:
+      213: -4410679250386135637
+    second: _locks_101
+  - first:
+      213: -2830897834594913142
+    second: _locks_102
+  - first:
+      213: 3498083894166565706
+    second: _locks_103
+  - first:
+      213: -2226744801213477294
+    second: _locks_104
+  - first:
+      213: 5818510850452436808
+    second: _locks_105
+  - first:
+      213: 4266012741178194327
+    second: _locks_106
+  - first:
+      213: -2263933625092017040
+    second: _locks_107
+  - first:
+      213: -2613465987985479105
+    second: _locks_108
+  - first:
+      213: 2043887151570669288
+    second: _locks_109
+  - first:
+      213: 1252866698066314593
+    second: _locks_110
+  - first:
+      213: 9119772997369208831
+    second: _locks_111
+  - first:
+      213: -4579993480955254378
+    second: _locks_112
+  - first:
+      213: 3501031644600776942
+    second: _locks_113
+  - first:
+      213: -1299632071269944809
+    second: _locks_114
+  - first:
+      213: 5741510190673001158
+    second: _locks_115
+  - first:
+      213: -7657758688743720896
+    second: _locks_116
+  - first:
+      213: 2086658728073250668
+    second: _locks_117
+  - first:
+      213: 4232238105033238685
+    second: _locks_118
+  - first:
+      213: -5355526345000150931
+    second: _locks_119
+  - first:
+      213: 6302781457288760590
+    second: _locks_120
+  - first:
+      213: 654951736864947578
+    second: _locks_121
+  - first:
+      213: -491719785170046284
+    second: _locks_122
+  - first:
+      213: -4692635037313296188
+    second: _locks_123
+  - first:
+      213: -4717300100407691505
+    second: _locks_124
+  - first:
+      213: 2822447295262059132
+    second: _locks_125
+  - first:
+      213: -3907842062990611767
+    second: _locks_126
+  - first:
+      213: 8774881808413868793
+    second: _locks_127
+  - first:
+      213: 611961529436424283
+    second: _locks_128
+  - first:
+      213: 8040306318943822455
+    second: _locks_129
+  - first:
+      213: 8721093023871058877
+    second: _locks_130
+  - first:
+      213: 9174012518088450475
+    second: _locks_131
+  - first:
+      213: -2920539121217547579
+    second: _locks_132
+  - first:
+      213: -8870075638832819667
+    second: _locks_133
+  - first:
+      213: -5588619353843222606
+    second: _locks_134
+  - first:
+      213: 5429895736803804138
+    second: _locks_135
+  - first:
+      213: 9079432780350056657
+    second: _locks_136
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: _locks_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54c8518cd8b95ac0800000000000000
+      internalID: -3865855547918465958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 152
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff937cfad0fa2450800000000000000
+      internalID: 6064924671536766962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 152
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee35023a2d83ee70800000000000000
+      internalID: 9143306880859586281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 152
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4448f7d21acb2ca80800000000000000
+      internalID: -8447982550554540988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 152
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bd64ee4373d62b0800000000000000
+      internalID: -5589750862021469334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 152
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69658ae61d7f82a0800000000000000
+      internalID: -6733025380518237841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 152
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec955fc3e89f6c90800000000000000
+      internalID: -7174347577174418205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 152
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd7ed40cc3cb3010800000000000000
+      internalID: 1169743809255210433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 152
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debb09b63b2b56810800000000000000
+      internalID: 1758007713231584237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 139
+        width: 8
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6923077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 6.5}
+        - {x: -4, y: -2.5}
+        - {x: -3, y: -4.5}
+        - {x: -4, y: -6.5}
+        - {x: 4, y: -6.5}
+        - {x: 3, y: -4.5}
+        - {x: 4, y: -2.5}
+        - {x: 4, y: 6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcb715079f49cc30800000000000000
+      internalID: 4380119622638615799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 139
+        width: 8
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6923077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 6.5}
+        - {x: -4, y: -0.5}
+        - {x: -3, y: -1.5}
+        - {x: -2, y: -3.5}
+        - {x: -3, y: -6.5}
+        - {x: 3, y: -6.5}
+        - {x: 2, y: -3.5}
+        - {x: 3, y: -1.5}
+        - {x: 4, y: -0.5}
+        - {x: 4, y: 6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e1bea2fb97b2c50800000000000000
+      internalID: 6641535937453694595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_11
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d2ed9a7cded90b0800000000000000
+      internalID: -5720154509886476923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846ad05fb120e0c60800000000000000
+      internalID: 7786163124868851272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_13
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4228b555489a3f0800000000000000
+      internalID: -889033949286619939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06850c538e85f88d0800000000000000
+      internalID: -2841955085490038688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_15
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a45eb6a1c6c0bd10800000000000000
+      internalID: 2139428358029464738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7194313c490985e40800000000000000
+      internalID: 5645421101511297303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_17
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee59904bdf9bb9d0800000000000000
+      internalID: -2757434582803849500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e8e4fff70077090800000000000000
+      internalID: -8036954460275175873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_19
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61df05b4893abb930800000000000000
+      internalID: 4160098555300740374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f795af8ba34513e20800000000000000
+      internalID: 3328534210791758207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_21
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e210a2b93d06fe0800000000000000
+      internalID: -1197724837502439909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa608986bdf286920800000000000000
+      internalID: 2983687372532090543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_25
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5857fda8c4f0547e0800000000000000
+      internalID: -1782001256133331579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_26
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 136
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa789dfdbb46d7a60800000000000000
+      internalID: 7673400098186430383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_27
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 131
+        width: 12
+        height: 10
+      alignment: 9
+      pivot: {x: 0.41666666, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ae06abcec2ee020800000000000000
+      internalID: 2372883448921647728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_34
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 131
+        width: 11
+        height: 10
+      alignment: 9
+      pivot: {x: 0.54545456, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a392cec439866e0800000000000000
+      internalID: -1844062088819295659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dfcd409b9f49c30800000000000000
+      internalID: 4365388511874710906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_37
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9129b1a17fa296390800000000000000
+      internalID: -7824675636796222951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_38
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bc0b30838481110800000000000000
+      internalID: 1231813903503117110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a095288983bb20f70800000000000000
+      internalID: 9152083244521511178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4846d91b8c92c40800000000000000
+      internalID: 5488138286103037147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_42
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b10388c8fc5cd40800000000000000
+      internalID: 5604113513819675504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_43
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23230015a722724a0800000000000000
+      internalID: -6618283218657332686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_44
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d877a43ddaedd72f0800000000000000
+      internalID: -973377106286577779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_45
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 104
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f2a8699b39fe290800000000000000
+      internalID: -7858900399434354796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_46
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.34375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -1}
+        - {x: 8, y: 1}
+        - {x: 8, y: 3}
+        - {x: 0, y: 3}
+        - {x: 0, y: 7}
+        - {x: -3, y: 7}
+        - {x: -3, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 3}
+        - {x: -7, y: 3}
+        - {x: -7, y: -1}
+        - {x: -7, y: -3}
+        - {x: -4, y: -3}
+        - {x: -4, y: -6}
+        - {x: -3, y: -6}
+        - {x: -3, y: -7}
+        - {x: 0, y: -7}
+        - {x: 0, y: -3}
+        - {x: 8, y: -3}
+      tessellationDetail: 1
+      bones: []
+      spriteID: e0dd6bff516c369a0800000000000000
+      internalID: -6240926860818588402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_50
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.34375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: -3}
+        - {x: 8, y: 1}
+        - {x: 8, y: 3}
+        - {x: 0, y: 3}
+        - {x: 0, y: 7}
+        - {x: -3, y: 7}
+        - {x: -3, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 3}
+        - {x: -7, y: 3}
+        - {x: -8, y: -1}
+        - {x: -8, y: -3}
+        - {x: -4, y: -3}
+        - {x: -4, y: -6}
+        - {x: -3, y: -6}
+        - {x: -3, y: -7}
+        - {x: 0, y: -7}
+        - {x: 0, y: -3}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 20b0d799e61e77140800000000000000
+      internalID: 4717486999831644930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.28125, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 5}
+        - {x: -8, y: 3}
+        - {x: -8, y: -3}
+        - {x: -6, y: -5}
+        - {x: -5, y: -6}
+        - {x: -1, y: -6}
+        - {x: 1, y: -3}
+        - {x: 8, y: -3}
+        - {x: 8, y: 3}
+        - {x: 1, y: 3}
+        - {x: -1, y: 6}
+        - {x: -5, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20da2cea10979190800000000000000
+      internalID: -7955731771420913619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_54
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 15
+        height: 16
+      alignment: 9
+      pivot: {x: 0.3, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4.5, y: 6}
+        - {x: -5.5, y: 5}
+        - {x: -7.5, y: 3}
+        - {x: -7.5, y: -3}
+        - {x: -5.5, y: -5}
+        - {x: -4.5, y: -6}
+        - {x: -0.5, y: -6}
+        - {x: 1.5, y: -3}
+        - {x: 7.5, y: -3}
+        - {x: 7.5, y: 3}
+        - {x: 1.5, y: 3}
+        - {x: -0.5, y: 6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489d2584778e23310800000000000000
+      internalID: 1383423634568305028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8debe9ebf496b78e0800000000000000
+      internalID: -1694645043553452328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_57
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3803d4c009cf3f0800000000000000
+      internalID: -865658645852945438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_58
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6298ea837116666a0800000000000000
+      internalID: -6456366263425922778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.34375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: -1}
+        - {x: 7, y: -1}
+        - {x: 7, y: 1}
+        - {x: 7, y: 3}
+        - {x: 0, y: 3}
+        - {x: 0, y: 7}
+        - {x: -3, y: 7}
+        - {x: -3, y: 6}
+        - {x: -4, y: 6}
+        - {x: -4, y: 3}
+        - {x: -8, y: 3}
+        - {x: -8, y: 1}
+        - {x: -6, y: 1}
+        - {x: -6, y: -1}
+        - {x: -7, y: -1}
+        - {x: -7, y: -3}
+        - {x: -4, y: -3}
+        - {x: -4, y: -6}
+        - {x: -3, y: -6}
+        - {x: -3, y: -7}
+        - {x: 0, y: -7}
+        - {x: 0, y: -3}
+        - {x: 8, y: -3}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 8ec2f213254be4370800000000000000
+      internalID: 8308776627650637032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4c602f30afdc2e0800000000000000
+      internalID: -2103750556059777846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_70
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8f272b3d5941da0800000000000000
+      internalID: -5974986069149288262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_71
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5aea7ed6c0a8660800000000000000
+      internalID: 7388731804832671206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_72
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83250f93c9274000800000000000000
+      internalID: 20030643509732238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9323906125263f170800000000000000
+      internalID: 8211014650323087929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_74
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1bd0d2adfd9ef30800000000000000
+      internalID: 4605458222114779634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_75
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd03bc4f2c7a11f0800000000000000
+      internalID: -1073409018582331919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_76
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616ae9d4f1325dca0800000000000000
+      internalID: -5992845111793375722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_77
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf826144a4b2fbde0800000000000000
+      internalID: -1315284968199018244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_78
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888a68e6ca11944a0800000000000000
+      internalID: -6608731545903126392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_79
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7e501a8fadbb820800000000000000
+      internalID: 2935180343550273523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_80
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692453eeb20044f20800000000000000
+      internalID: 3405847406878999190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38af9ac8d1b50b5d0800000000000000
+      internalID: -3048836765257696637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_82
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e4baf16c5ece020800000000000000
+      internalID: 2372523742815014500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_83
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83b42f5882f8cff0800000000000000
+      internalID: -15495931170081909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_84
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3b893ce60487860800000000000000
+      internalID: 7527837621621928936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_85
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c597b9ea54d4ee70800000000000000
+      internalID: 9143666630402217412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_86
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b348c1d3aeb1d6c0800000000000000
+      internalID: -4120302573258783819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_87
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e90bd8d215ba68d0800000000000000
+      internalID: -2852268321433515547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_88
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7570b15f63af837a0800000000000000
+      internalID: -6397088156732422313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_89
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497e249be07de3ec0800000000000000
+      internalID: -3585191795102652524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_90
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f321f1e05722a4850800000000000000
+      internalID: 6361935309757682239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_91
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f4e596584906c50800000000000000
+      internalID: 6656483549972942639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_92
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452bb3a3e726e3060800000000000000
+      internalID: 6935088770479534676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95209fd05f0debc80800000000000000
+      internalID: -8304970911904628135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_100
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641f03701d4384fc0800000000000000
+      internalID: -3510497837161844410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_102
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 72
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a843c8d0b61a6b8d0800000000000000
+      internalID: -2830897834594913142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_105
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 52
+        width: 16
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84739fa6ac08fb050800000000000000
+      internalID: 5818510850452436808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_107
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 52
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074f351ec54e490e0800000000000000
+      internalID: -2263933625092017040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_109
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 52
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eeca5e09885d5c10800000000000000
+      internalID: 2043887151570669288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_117
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 36
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67464ebe0d45fc10800000000000000
+      internalID: 2086658728073250668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_119
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 36
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68150df9295da5b0800000000000000
+      internalID: -5355526345000150931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_125
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 20
+        width: 12
+        height: 8
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: 4}
+        - {x: -6, y: -4}
+        - {x: 0, y: -4}
+        - {x: 4, y: -3}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+        - {x: 4, y: 3}
+        - {x: 0, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a6b5f6cd85b2720800000000000000
+      internalID: 2822447295262059132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_127
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 20
+        width: 12
+        height: 8
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: -6, y: 4}
+        - {x: -6, y: -4}
+        - {x: 0, y: -4}
+        - {x: 4, y: -3}
+        - {x: 6, y: -2}
+        - {x: 6, y: 2}
+        - {x: 4, y: 3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2cb807384a6c970800000000000000
+      internalID: 8774881808413868793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d221680c33927e480800000000000000
+      internalID: -8870075638832819667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _locks_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27444abb4dd82a80800000000000000
+      internalID: -8491293780089747666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

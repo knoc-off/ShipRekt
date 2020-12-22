@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ship
+  - floor
+  - wall
+  - sprite
+  - sprites
+  - shipLayer
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - floor
+  - player
+  - sprite
+  - wall
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Water
+    uniqueID: 3374682409
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: ship
+    uniqueID: 3166316413
+    locked: 0
+  - name: floor
+    uniqueID: 3943817979
+    locked: 0
+  - name: sprite
+    uniqueID: 73916461
+    locked: 0
+  - name: Player
+    uniqueID: 1792605531
+    locked: 0
+  - name: Wall
+    uniqueID: 2614013941
+    locked: 0
