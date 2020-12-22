@@ -6,14 +6,15 @@ using UnityEngine.Tilemaps;
 public class playerMovement : MonoBehaviour
 {
     public GameObject shipLayer;
-
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
     public Animator animator;
     public Transform cam;
+    public Camera camCam;
     private GameObject[] ships;
     private Tilemap tempMap;
     private bool OnTile;
+    private float tempTime;
     Vector2 movement;
 
     // Update is called once per frame
@@ -23,7 +24,7 @@ public class playerMovement : MonoBehaviour
 
         for (var i = 0; i < tempShip.ships.Count; i++)
         {
-
+            tempShip = SetShip(i);
             OnTile = false;
 
             if (tempShip.floorMap.HasTile(tempShip.floorMap.WorldToCell(new Vector3( transform.position.x, transform.position.y, 0))))
@@ -56,6 +57,14 @@ public class playerMovement : MonoBehaviour
             moveSpeed = 3f;
 
 
+        if (OnTile) // change to only change mass if contact = wall of the floor im standing on. but good temp fix
+        {
+            rb.mass = 0;
+        }
+        else
+            rb.mass = 10;
+
+
         /*
         Vector2 moveDirection = gameObject.GetComponent<Rigidbody2D>().velocity;
         if (moveDirection != Vector2.zero)
@@ -69,6 +78,8 @@ public class playerMovement : MonoBehaviour
     }
     void FixedUpdate() // movement
     {
+        Vector2 pz = camCam.ScreenToWorldPoint(Input.mousePosition);
+
         Vector3 camF = cam.up;
         Vector3 camR = cam.right;
 
@@ -97,10 +108,20 @@ public class playerMovement : MonoBehaviour
 
 
 
+        if (Input.GetAxis("Fire1") == 1 )
+        {
+            //print("rot start2");
+            tempTime = Time.fixedTime+(float).5;
+            //Vector2 lookDir = pz - rb.position;
+            //angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
+        }
 
 
-        if(movement.sqrMagnitude > 0)
-            transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+        if (movement.sqrMagnitude > 0 && tempTime < Time.fixedTime)
+            rb.rotation = angle;
+
+        //transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
         //rb.MovePosition(rb.position + (camF * movement.y + camR * movement.x) * Time.fixedDeltaTime * moveSpeed);
         //rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);

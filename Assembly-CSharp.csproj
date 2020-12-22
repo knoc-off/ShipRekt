@@ -65,9 +65,11 @@
     <Compile Include="Assets\GetTileMap.cs" />
     <Compile Include="Assets\RotateToShip.cs" />
     <Compile Include="Assets\Resources\TilemapTest.cs" />
-    <Compile Include="Assets\ShipSeperator.cs" />
     <Compile Include="Assets\blurScript.cs" />
     <Compile Include="Assets\ShipTupleClass.cs" />
+    <Compile Include="Assets\ShipSeperator.cs" />
+    <Compile Include="Assets\PlayerWeapon.cs" />
+    <Compile Include="Assets\TimeOut.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

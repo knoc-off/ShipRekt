@@ -10,11 +10,9 @@ public class RotateToShip : MonoBehaviour
     private Component[] Tiles;
     private Tilemap tempMap;
     public Transform player;
-    public Rigidbody2D playerRB;
     public int RotationSpeed = 20; // speed at which the camera revolves when standing on tile
     //public Tile highlightTile;
     //public Tilemap highlightMap;
-    private bool OnTile;
     private float x;
     private float y;
     private Vector3 rotateValue;
@@ -62,26 +60,21 @@ public class RotateToShip : MonoBehaviour
         if (rotateTime + sleepTime > Time.fixedTime)
         {
             if (TurnLeft)
-                RotateTo(GetNearest90Minus(), RotationSpeed*(sleepTime*(float)6));
+                RotateTo(GetNearest90Minus(), RotationSpeed * (sleepTime * 6));
             if (TurnRight)
-                RotateTo(GetNearest90Plus(), RotationSpeed*(sleepTime* (float)6));
+                RotateTo(GetNearest90Plus(), RotationSpeed * (sleepTime * 6));
         }
         else
         {
             TurnLeft = false;
             TurnRight = false;
-            RotateTo(GetNearest90(),RotationSpeed); // rotate to ships nearest 90 degree angle
+            RotateTo(GetNearest90(), RotationSpeed); // rotate to ships nearest 90 degree angle
         }
 
 
 
 
-        if (OnTile)
-        {
-            playerRB.mass = 0;
-        }
-        else
-            playerRB.mass = 1;
+
 
         //ships = GameObject.FindGameObjectsWithTag("Ship");
 
@@ -104,7 +97,6 @@ public class RotateToShip : MonoBehaviour
     float GetNearest90Minus()
     {
         Tiles = shipLayers.GetComponentsInChildren(typeof(Tilemap));
-        OnTile = false;
         for (int i = 0; i < Tiles.Length; i++)
         {
             tempMap = (Tilemap)Tiles[i];
@@ -113,7 +105,6 @@ public class RotateToShip : MonoBehaviour
 
 
 
-                OnTile = true;
                 Vector3 rotVal = Tiles[i].transform.rotation.eulerAngles;       // ship up this should snap to 90
                 //print(rotVal.z); // add 90 check if thats closer to origin 
 
@@ -148,7 +139,7 @@ public class RotateToShip : MonoBehaviour
                 //transform.eulerAngles = templ.eulerAngles; // Tiles[i].transform.rotation.eulerAngles
 
 
-                return diff+70; // if anything breaks its gonna be here//
+                return diff + 70; // if anything breaks its gonna be here//
 
 
 
@@ -162,7 +153,6 @@ public class RotateToShip : MonoBehaviour
     float GetNearest90Plus()
     {
         Tiles = shipLayers.GetComponentsInChildren(typeof(Tilemap));
-        OnTile = false;
         for (int i = 0; i < Tiles.Length; i++)
         {
             tempMap = (Tilemap)Tiles[i];
@@ -171,7 +161,6 @@ public class RotateToShip : MonoBehaviour
 
 
 
-                OnTile = true;
                 Vector3 rotVal = Tiles[i].transform.rotation.eulerAngles;       // ship up this should snap to 90
                 //print(rotVal.z); // add 90 check if thats closer to origin 
 
@@ -207,7 +196,7 @@ public class RotateToShip : MonoBehaviour
                 //transform.eulerAngles = templ.eulerAngles; // Tiles[i].transform.rotation.eulerAngles
 
 
-                return diff-70; // if anything breaks its gonna be here//
+                return diff - 70; // if anything breaks its gonna be here//
 
 
 
@@ -221,7 +210,6 @@ public class RotateToShip : MonoBehaviour
     float GetNearest90()
     {
         Tiles = shipLayers.GetComponentsInChildren(typeof(Tilemap));
-        OnTile = false;
         for (int i = 0; i < Tiles.Length; i++)
         {
             tempMap = (Tilemap)Tiles[i];
@@ -230,7 +218,6 @@ public class RotateToShip : MonoBehaviour
 
 
 
-                OnTile = true;
                 Vector3 rotVal = Tiles[i].transform.rotation.eulerAngles;       // ship up this should snap to 90
                 //print(rotVal.z); // add 90 check if thats closer to origin 
 
@@ -277,13 +264,11 @@ public class RotateToShip : MonoBehaviour
     void FaceUp()
     {
         Tiles = shipLayers.GetComponentsInChildren(typeof(Tilemap));
-        OnTile = false;
         for (int i = 0; i < Tiles.Length; i++)
         {
             tempMap = (Tilemap)Tiles[i];
             if (tempMap.HasTile(tempMap.WorldToCell(new Vector3(player.transform.position.x, player.transform.position.y, 0))))
             {
-                OnTile = true;
                 Vector3 rotVal = Tiles[i].transform.rotation.eulerAngles;       // ship up this should snap to 90
                 //print(rotVal.z); // add 90 check if thats closer to origin 
 
