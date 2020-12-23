@@ -11,15 +11,15 @@ public class PlayerWeapon : MonoBehaviour
     private float angle;
     private float frames;
 
-    private bool shot = false;
+    private bool shot = true;
     void Update()
     {
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && shot)
         {
             shot = false;
             frames = Time.fixedTime+(float).01;
-            print("rot start1");
+            //print("rot start1");
             pz = camCam.ScreenToWorldPoint(Input.mousePosition);
             Vector2 lookDir = pz - rigbdy.position;
             angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
@@ -36,9 +36,12 @@ public class PlayerWeapon : MonoBehaviour
     void shoot()
     {
 
-        print("shoot");
+        //print("shoot");
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * force, ForceMode2D.Impulse);
     }
+
+
+
 }

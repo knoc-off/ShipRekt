@@ -17,26 +17,13 @@ public class playerMovement : MonoBehaviour
     private float tempTime;
     Vector2 movement;
 
+    private Vector2 ShipVelocity;
+
     // Update is called once per frame
     void Update() // input
     {
-        var tempShip = SetShip(0);
 
-        for (var i = 0; i < tempShip.ships.Count; i++)
-        {
-            tempShip = SetShip(i);
-            OnTile = false;
-
-            if (tempShip.floorMap.HasTile(tempShip.floorMap.WorldToCell(new Vector3( transform.position.x, transform.position.y, 0))))
-            {
-                OnTile = true;
-                break;
-                
-            }
-            
-        }
         //print("on" + OnTile);
-
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
         movement = Vector2.ClampMagnitude(movement, 1);
@@ -62,7 +49,7 @@ public class playerMovement : MonoBehaviour
             rb.mass = 0;
         }
         else
-            rb.mass = 10;
+            rb.mass = 1;
 
 
         /*
@@ -78,17 +65,43 @@ public class playerMovement : MonoBehaviour
     }
     void FixedUpdate() // movement
     {
+
+
+        var tempShip = SetShip(0);
+        ShipVelocity = new Vector2(0, 0);
+        for (var i = 0; i < tempShip.ships.Count; i++)
+        {
+            tempShip = SetShip(i);
+            OnTile = false;
+
+            if (tempShip.floorMap.HasTile(tempShip.floorMap.WorldToCell(new Vector3(transform.position.x, transform.position.y, 0))))
+            {
+                OnTile = true;
+                break;
+
+            }
+
+        }
+
+        //ShipVelocity = tempShip.floorMap.WorldToLocal(new Vector3(transform.position.x, transform.position.y,0)); //tempShip.floorMap.GetComponent<Rigidbody2D>().velocity;
+
+        ShipVelocity = tempShip.floorMap.GetComponent<Rigidbody2D>().GetPointVelocity(new Vector2(transform.position.x, transform.position.y));
+        if (!OnTile)
+            ShipVelocity = new Vector2(0,0);
         Vector2 pz = camCam.ScreenToWorldPoint(Input.mousePosition);
 
         Vector3 camF = cam.up;
         Vector3 camR = cam.right;
 
-
         camF = camF.normalized;
         camR = camR.normalized;
+        rb.velocity = ShipVelocity;
+        //transform.position += (camF * (movement.y+ (ShipVelocity.y / 4)) + camR * (movement.x+ (ShipVelocity.x / 4))) * Time.fixedDeltaTime * moveSpeed; //new Vector3(movement.x, movement.y, 0) * Time.fixedDeltaTime *  moveSpeed;
+
+        //transform.position += new Vector3((ShipVelocity.x/10), (ShipVelocity.y/10), 0);
 
         transform.position += (camF * movement.y + camR * movement.x) * Time.fixedDeltaTime * moveSpeed; //new Vector3(movement.x, movement.y, 0) * Time.fixedDeltaTime *  moveSpeed;
-
+        //
         //Debug.Log(camF);
         //Debug.Log(camR);
         //if (Input.GetAxisRaw("Horizontal") + Input.GetAxisRaw("Vertical") != 0)
