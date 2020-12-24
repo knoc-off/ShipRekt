@@ -11,6 +11,8 @@ public class PlayerWeapon : MonoBehaviour
     private float angle;
     private float frames;
 
+    private int ammo = 20;
+
     private bool shot = true;
     void Update()
     {
@@ -27,8 +29,10 @@ public class PlayerWeapon : MonoBehaviour
         }
         if (Time.fixedTime > frames && !shot)
         {
+            ammo--;
             shot = true;
-            shoot();
+            //if(ammo > 0)
+                shoot();
         }
 
     }
