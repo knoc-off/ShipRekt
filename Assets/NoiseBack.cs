@@ -11,14 +11,17 @@ public class NoiseBack : MonoBehaviour
     public float offsetY;
     public float RandOffsetX;
     public float RandOffsetY;
-    public float divide;
+    public float divide = 55;
     private bool direction = true;
-
-
+    private FastNoise noise = new FastNoise();
+    private Renderer renderer;
+    public float sizex;
     private void Start()
     {
+        sizex = transform.localScale.x / width;
         RandOffsetX = Random.Range(-999, 999);
         RandOffsetY = Random.Range(-999, 999);
+        renderer = GetComponent<Renderer>();
         //RandOffsetX = 10;
         //RandOffsetY = 10;
     }
@@ -26,32 +29,16 @@ public class NoiseBack : MonoBehaviour
     // Start is called before the first frame update
     void Update()
     {
-        transform.position = new Vector3(cam.position.x, cam.position.y, 0);
+
+        //if(transform.position.x > cam.transform.position.x + sizex)
+        //    ;
+        //float output = ((cam.position.x / sizex) + 1) * sizex;
+        //transform.position = new Vector3(cam.position.x, cam.position.y, 0);
         if (Time.fixedTime > delay)
         {
-            //offsetX = RandOffsetX;
-            //offsetY = RandOffsetY;
-
-            offsetX = cam.position.x / (10);
-            offsetY = cam.position.y / (10);
-            //offsetX += (float)(0.01);
-            //offsetY += (float)(0.01);
-            if (direction)
-            {
-                divide += (float).002;
-                if (divide > 1)
-                    direction = !direction;
-            }
-            else
-            {
-                divide -= (float).002;
-                if (divide < -1)
-                    direction = !direction;
-            }
-
-            delay = Time.fixedTime + (float).05;
-            //scale += (float).02;
-            Renderer renderer = GetComponent<Renderer>();
+            delay = Time.fixedTime + 1;
+            offsetX = cam.position.x * (scale / divide);
+            offsetY = cam.position.y * (scale / divide);
             renderer.material.mainTexture = GenerateTexture();
         }
     }
@@ -61,7 +48,7 @@ public class NoiseBack : MonoBehaviour
     Texture2D GenerateTexture()
     {
         Texture2D texture = new Texture2D(width, height);
-
+        texture.filterMode = FilterMode.Point;
 
         for (int x = 0; x < width; x++)
         {
@@ -71,13 +58,13 @@ public class NoiseBack : MonoBehaviour
                 //color.b = 256;
                 var div = 1;
 
-                color *= (float)-.4;
+                color *= (float)-.3;
 
                 color += new Color((float)(0.3671875 * div), (float)(0.609 * div), (float)(.609 * div));
 
 
                 texture.SetPixel(x, y, color);
-                
+
 
                 //texture.SetPixels(x, y, 5, 5, colors);
             }
@@ -91,10 +78,10 @@ public class NoiseBack : MonoBehaviour
 
     {
 
-        float xCoord = ((float)(x) / width * scale + offsetX) * divide;
-        float yCoord = ((float)(y) / height * scale + offsetY) * divide;
+        float xCoord = ((float)(x) / width * scale + offsetX);
+        float yCoord = ((float)(y) / height * scale + offsetY);
 
-        float sample = Mathf.PerlinNoise(xCoord, yCoord);
+        float sample = noise.GetSimplex(xCoord, yCoord);//noise.GetSimplex(xCoord, yCoord); //noise.GetPerlin(xCoord,yCoord);//Mathf.PerlinNoise(xCoord, yCoord);
         return new Color(sample, sample, sample);
 
 

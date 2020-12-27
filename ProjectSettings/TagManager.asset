@@ -10,6 +10,7 @@ TagManager:
   - sprite
   - sprites
   - shipLayer
+  - BackGround
   layers:
   - Default
   - TransparentFX

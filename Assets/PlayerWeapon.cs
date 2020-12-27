@@ -32,7 +32,8 @@ public class PlayerWeapon : MonoBehaviour
             ammo--;
             shot = true;
             //if(ammo > 0)
-                shoot();
+            //rigbdy.AddForce(rigbdy.transform.up * -1000);
+            shoot();
         }
 
     }

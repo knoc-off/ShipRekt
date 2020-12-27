@@ -22,7 +22,7 @@ public class NeedleNorth : MonoBehaviour
 
         if (Time.fixedTime > time)
         {
-            time = Time.fixedTime + (float).05;
+            time = Time.fixedTime + (float).005;
             transform.localEulerAngles = new Vector3(0, 0, -rot);
 
 

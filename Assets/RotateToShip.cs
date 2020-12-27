@@ -60,9 +60,9 @@ public class RotateToShip : MonoBehaviour
         if (rotateTime + sleepTime > Time.fixedTime)
         {
             if (TurnLeft)
-                RotateTo(GetNearest90Minus(), RotationSpeed * (sleepTime * 6));
+                RotateTo(GetNearest90Minus(), RotationSpeed * (sleepTime * (float)6.5));
             if (TurnRight)
-                RotateTo(GetNearest90Plus(), RotationSpeed * (sleepTime * 6));
+                RotateTo(GetNearest90Plus(), RotationSpeed * (sleepTime * (float)6.5));
         }
         else
         {
