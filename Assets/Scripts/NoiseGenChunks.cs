@@ -26,7 +26,7 @@ public class NoiseGenChunks : MonoBehaviour
     void Start()
     {
 
-
+        GetBackDat(0).rend.enabled = true;
         InitChunks();
 
         width = (int)TwoDtiles[0][0].obj.transform.localScale.x;

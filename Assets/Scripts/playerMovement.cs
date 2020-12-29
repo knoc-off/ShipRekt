@@ -95,7 +95,7 @@ public class playerMovement : MonoBehaviour
 
         camF = camF.normalized;
         camR = camR.normalized;
-        rb.velocity = ShipVelocity;
+        rb.velocity = ShipVelocity*1.02f;
         //transform.position += (camF * (movement.y+ (ShipVelocity.y / 4)) + camR * (movement.x+ (ShipVelocity.x / 4))) * Time.fixedDeltaTime * moveSpeed; //new Vector3(movement.x, movement.y, 0) * Time.fixedDeltaTime *  moveSpeed;
 
         //transform.position += new Vector3((ShipVelocity.x/10), (ShipVelocity.y/10), 0);

@@ -56,26 +56,27 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ColorTagger.cs" />
-    <Compile Include="Assets\PlayerWeapon.cs" />
-    <Compile Include="Assets\CreateMap.cs" />
-    <Compile Include="Assets\playerMovement.cs" />
-    <Compile Include="Assets\NeedleNorth.cs" />
+    <Compile Include="Assets\Scripts\ColorTagger.cs" />
+    <Compile Include="Assets\Scripts\PlayerWeapon.cs" />
+    <Compile Include="Assets\Scripts\CreateMap.cs" />
+    <Compile Include="Assets\Scripts\playerMovement.cs" />
+    <Compile Include="Assets\Scripts\NeedleNorth.cs" />
     <Compile Include="Assets\classes\FastNoiseLite.cs" />
-    <Compile Include="Assets\ShipSeperator3.cs" />
+    <Compile Include="Assets\Scripts\ShipSeperator3.cs" />
     <Compile Include="Assets\Scripts\ShipSeperator2.cs" />
-    <Compile Include="Assets\MoveWithShip.cs" />
-    <Compile Include="Assets\FloorMass.cs" />
-    <Compile Include="Assets\GetTileMap.cs" />
+    <Compile Include="Assets\Scripts\MoveWithShip.cs" />
+    <Compile Include="Assets\Scripts\FloorMass.cs" />
+    <Compile Include="Assets\Scripts\GetTileMap.cs" />
     <Compile Include="Assets\classes\FastNoise.cs" />
-    <Compile Include="Assets\RotateToShip.cs" />
+    <Compile Include="Assets\Scripts\RotateToShip.cs" />
     <Compile Include="Assets\Resources\TilemapTest.cs" />
-    <Compile Include="Assets\NoiseGenChunks.cs" />
-    <Compile Include="Assets\NoiseBack.cs" />
-    <Compile Include="Assets\TimeOut.cs" />
+    <Compile Include="Assets\Scripts\NoiseGenChunks.cs" />
+    <Compile Include="Assets\Scripts\NoiseBack.cs" />
+    <Compile Include="Assets\Scripts\TimeOut.cs" />
     <Compile Include="Assets\Scripts\blurScript.cs" />
-    <Compile Include="Assets\ShipTupleClass.cs" />
-    <Compile Include="Assets\ShipSeperator.cs" />
+    <Compile Include="Assets\Scripts\ShipTupleClass.cs" />
+    <Compile Include="Assets\Scripts\ShipSeperator.cs" />
+    <Compile Include="Assets\ThrustTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
