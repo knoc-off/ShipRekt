@@ -12,16 +12,15 @@ public class NoiseBack : MonoBehaviour
     public float RandOffsetX;
     public float RandOffsetY;
     public float divide = 55;
-    private bool direction = true;
     private FastNoise noise = new FastNoise();
-    private Renderer renderer;
+    private Renderer rend;
     public float sizex;
     private void Start()
     {
         sizex = transform.localScale.x / width;
         RandOffsetX = Random.Range(-999, 999);
         RandOffsetY = Random.Range(-999, 999);
-        renderer = GetComponent<Renderer>();
+        rend = GetComponent<Renderer>();
         //RandOffsetX = 10;
         //RandOffsetY = 10;
     }
@@ -39,7 +38,7 @@ public class NoiseBack : MonoBehaviour
             delay = Time.fixedTime + 1;
             offsetX = cam.position.x * (scale / divide);
             offsetY = cam.position.y * (scale / divide);
-            renderer.material.mainTexture = GenerateTexture();
+            rend.material.mainTexture = GenerateTexture();
         }
     }
 

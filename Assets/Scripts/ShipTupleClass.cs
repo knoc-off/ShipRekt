@@ -4,18 +4,13 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 
 
-public class ShipTupleClass : MonoBehaviour
+public class ShipTupleClass
 {
     public GameObject shipLayer;   // could make it public and have it be able to be set to dynamicly change the shiplayer. idk what use that would be but it would be cool...
-
-    void start()
-    {
-        //shipLayer = GameObject.FindGameObjectWithTag("shipLayer");  //instantiate the shiplayer
-    }
-
     public (List<GameObject> ships, List<GameObject> sprites, GameObject currentShip, GameObject spriteLayer, GameObject floor, GameObject wall, Tilemap floorMap, Tilemap wallMap) SetShip(int index)
     {
-        //shipLayer = GameObject.FindGameObjectWithTag("shipLayer");  //instantiate the shiplayer
+        if (shipLayer == null)
+            Debug.LogError("ShipLayer is null. set shiplayer to obj");
 
         List<GameObject> ships1 = new List<GameObject>();
         List<GameObject> sprites1 = new List<GameObject>();

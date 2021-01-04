@@ -41,11 +41,7 @@ public class ShipSeperator2 : MonoBehaviour
             Debug.Log(Time.fixedTime.ToString());
         }
     }
-    // Update is called once per frame
-    void Update()
-    {
 
-    }
     // MAKE SURE THE INDEX DOES NOT GET EXCEEDED. NO SAFTY NET!
     (List<GameObject> ships, List<GameObject> sprites, GameObject currentShip, GameObject spriteLayer, GameObject floor, GameObject wall, Tilemap floorMap, Tilemap wallMap) SetShip(int index)
     {
@@ -131,7 +127,8 @@ public class ShipSeperator2 : MonoBehaviour
                     newShip.floorMap.ClearAllTiles();
                     foreach (GameObject sprite in newShip.sprites)  // something is colliding and pushing things befor it gets removed. disable collisions?
                     {
-                        Destroy(sprite);
+                        if (sprite.GetComponent<SpriteRenderer>())
+                            Destroy(sprite);
                     }
 
                     // loop through sprites see if they are on a tile if not delete it.
@@ -147,26 +144,6 @@ public class ShipSeperator2 : MonoBehaviour
                         newShip.wallMap.SetTile(ogShip.floorMap.LocalToCell(new Vector3(z.x + ogShip.floorMap.origin.x, z.y + ogShip.floorMap.origin.y, 0)), ogShip.wallMap.GetTile(ogShip.floorMap.WorldToCell(ogShip.floorMap.LocalToWorld(new Vector3(z.x + ogShip.floorMap.origin.x, z.y + ogShip.floorMap.origin.y, 0)))));
                         ogShip.wallMap.SetTile(ogShip.floorMap.LocalToCell(new Vector3(z.x + ogShip.floorMap.origin.x, z.y + ogShip.floorMap.origin.y, 0)), null);
                     }
-
-
-                    //for (var o = 0; o < ogShip.sprites.Count; o++)
-                    //{
-                    //    GameObject sprite = ogShip.sprites[o];
-                    //    for (int y = 0; y < SetShip(0).ships.Count; y++)
-                    //    {
-                    //        newShip = SetShip(y);
-                    //        print(newShip.floorMap.WorldToCell(newShip.floorMap.LocalToWorld(new Vector3(sprite.transform.position.x, sprite.transform.position.y, 0))));
-                    //        if (newShip.floorMap.HasTile(newShip.floorMap.WorldToCell(newShip.floorMap.LocalToWorld(new Vector3(sprite.transform.position.x, sprite.transform.position.y, 0)))))
-                    //        {
-                    //            print("\t~\t~\t~\t~\t~\t~\t~\t~\t~\t~\t~\t~\t~");
-                    //            print(newShip.floorMap.LocalToWorld(new Vector3(sprite.transform.position.x, sprite.transform.position.y, 0)));
-                    //            print("\t~\t~\t~\t~\t~\t~\t~\t~\t~\t~\t~\t~\t~");
-                    //            GameObject tempSprite = Instantiate(sprite);
-                    //            tempSprite.transform.SetParent(newShip.spriteLayer.transform);
-                    //            Destroy(sprite);
-                    //        }
-                    //    }
-                    //}
                 }
 
             for (int o = 0; o < SetShip(0).ships.Count; o++) // o itterates through every ship
@@ -179,11 +156,13 @@ public class ShipSeperator2 : MonoBehaviour
                     if (SetShip(o).floorMap.HasTile(SetShip(o).floorMap.WorldToCell(new Vector3(sprite.transform.position.x, sprite.transform.position.y, 0))))
                     {
                         //print("tile under sprite " + sprite.name + " name " + sprite.transform.parent.transform.parent.transform.parent.name);
+                        var taglayer = sprite.transform.parent.tag;
+                        var parentlayer = getObjWithTag(recursiveFindChildren(SetShip(o).currentShip), taglayer);
+                        sprite.transform.parent = parentlayer[0].transform;
 
-                        sprite.transform.parent = SetShip(o).spriteLayer.transform;
                     }
                 }
-                    
+
 
             }
 

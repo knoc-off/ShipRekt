@@ -11,6 +11,8 @@ TagManager:
   - sprites
   - shipLayer
   - BackGround
+  - Thruster
+  - ThrusterLayer
   layers:
   - Default
   - TransparentFX

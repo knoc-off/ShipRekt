@@ -15,10 +15,10 @@ public class NoiseGenChunks : MonoBehaviour
     public float RandOffsetY;
     public float div = 1;
     private FastNoiseLite noise = new FastNoiseLite();
-    private Renderer renderer;
     [Range(-1.0f, 1.0f)]
     public float mult = -.3f;
-
+    
+    public int tempint;
 
 
     List<List<(int index, Vector2 pos, Renderer rend, List<GameObject> Backings, GameObject obj)>> TwoDtiles;
@@ -128,12 +128,13 @@ public class NoiseGenChunks : MonoBehaviour
             for (int y = 1; y >= -1; y--)
             {
                 // multiply by the width 
+                //Tiles2D[x + 1][y + 1].rend.sortingLayerID = tempint;
+                //print(Tiles2D[x + 1][y + 1].rend.sortingLayerID);
                 Tiles2D[x + 1][y + 1].obj.transform.position = new Vector3(x * Tiles2D[x + 1][y + 1].obj.transform.localScale.x, y * Tiles2D[x + 1][y + 1].obj.transform.localScale.y, 0);
-                var offX = scale * x; //Tiles2D[x + 1][y + 1].obj.transform.position.x + 
-                var offY = scale * y; //Tiles2D[x + 1][y + 1].obj.transform.position.y + 
+                var offX = scale * x; //multiply offset by x/y to get proper offsets
+                var offY = scale * y; //multiply offset by x/y to get proper offsets
                 
                 Tiles2D[x + 1][y + 1].rend.material.mainTexture = GenerateTexture(offX,offY);
-
                 index++;
 
             }
