@@ -99,6 +99,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 20
+  localPosX: 0
+  localPosY: 0
+  Rotation: 0
 --- !u!60 &8101312547560512676
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -270,7 +273,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 0.15
       minScalar: 5
       maxCurve:
         serializedVersion: 2

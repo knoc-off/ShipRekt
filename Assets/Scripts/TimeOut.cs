@@ -20,7 +20,7 @@ public class TimeOut : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (time < Time.fixedTime)
+        if (thisBullet.GetComponent<Rigidbody2D>().velocity.sqrMagnitude < .6)
             Destroy(thisBullet);
     }
 

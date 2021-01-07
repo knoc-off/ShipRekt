@@ -29,6 +29,11 @@ public class ThrusterDriver : MonoBehaviour
         }
         catch
         {
+            thrusters.Clear();
+            for (int i = 0; i < setThruster(0).thrusters.Count; i++)
+            {
+                thrusters.Add(setThruster(i).currentThruster.GetComponent<ThrustTest>().force);
+            }
             print("no thrusters");
         }
     }

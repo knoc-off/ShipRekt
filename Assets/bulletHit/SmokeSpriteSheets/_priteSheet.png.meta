@@ -1,0 +1,4771 @@
+fileFormatVersion: 2
+guid: 9909891abf577d84aa80b98d3af5a252
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6407671630139087551
+    second: _priteSheet_0
+  - first:
+      213: 120796829633913070
+    second: _priteSheet_1
+  - first:
+      213: 4309447379073587895
+    second: _priteSheet_2
+  - first:
+      213: 816748188708626117
+    second: _priteSheet_3
+  - first:
+      213: 8206034881197538655
+    second: _priteSheet_4
+  - first:
+      213: 776330748787042354
+    second: _priteSheet_5
+  - first:
+      213: 7951693533212117809
+    second: _priteSheet_6
+  - first:
+      213: -5189403988961561528
+    second: _priteSheet_7
+  - first:
+      213: 1095161940967348601
+    second: _priteSheet_8
+  - first:
+      213: 4246042669058207658
+    second: _priteSheet_9
+  - first:
+      213: 8488872164675379750
+    second: _priteSheet_10
+  - first:
+      213: 4867827465814213631
+    second: _priteSheet_11
+  - first:
+      213: 1757375420802897539
+    second: _priteSheet_12
+  - first:
+      213: -8948096895476979003
+    second: _priteSheet_13
+  - first:
+      213: -8538786525455754508
+    second: _priteSheet_14
+  - first:
+      213: 2446338733758468191
+    second: _priteSheet_15
+  - first:
+      213: 664658738068441354
+    second: _priteSheet_16
+  - first:
+      213: 7644601209709249933
+    second: _priteSheet_17
+  - first:
+      213: 4740700428569188173
+    second: _priteSheet_18
+  - first:
+      213: -3950636875013420251
+    second: _priteSheet_19
+  - first:
+      213: 452392830906918510
+    second: _priteSheet_20
+  - first:
+      213: 487413046538437923
+    second: _priteSheet_21
+  - first:
+      213: 3545543771985317332
+    second: _priteSheet_22
+  - first:
+      213: 4664242577578101141
+    second: _priteSheet_23
+  - first:
+      213: -7758053452383053358
+    second: _priteSheet_24
+  - first:
+      213: -2599921932388206931
+    second: _priteSheet_25
+  - first:
+      213: 5807185153701007965
+    second: _priteSheet_26
+  - first:
+      213: 5336746310183787903
+    second: _priteSheet_27
+  - first:
+      213: -4104166898979592167
+    second: _priteSheet_28
+  - first:
+      213: 2958209306732986939
+    second: _priteSheet_29
+  - first:
+      213: -787547822539648812
+    second: _priteSheet_30
+  - first:
+      213: -8968239838306600094
+    second: _priteSheet_31
+  - first:
+      213: -4401060932931471686
+    second: _priteSheet_32
+  - first:
+      213: 4450516291061381044
+    second: _priteSheet_33
+  - first:
+      213: 3373142925784926593
+    second: _priteSheet_34
+  - first:
+      213: -6713374175665717835
+    second: _priteSheet_35
+  - first:
+      213: 3059713198280716533
+    second: _priteSheet_36
+  - first:
+      213: 5604792701621818886
+    second: _priteSheet_37
+  - first:
+      213: 1600203934560915741
+    second: _priteSheet_38
+  - first:
+      213: -4251383346275894092
+    second: _priteSheet_39
+  - first:
+      213: -1588677001372318976
+    second: _priteSheet_40
+  - first:
+      213: -1583786172516141600
+    second: _priteSheet_41
+  - first:
+      213: 1523390931481111293
+    second: _priteSheet_42
+  - first:
+      213: 4364946999559691103
+    second: _priteSheet_43
+  - first:
+      213: -3260841429750689365
+    second: _priteSheet_44
+  - first:
+      213: -7136855244117087913
+    second: _priteSheet_45
+  - first:
+      213: 3048312584474500094
+    second: _priteSheet_46
+  - first:
+      213: 9137309568065105438
+    second: _priteSheet_47
+  - first:
+      213: -8945420104754619982
+    second: _priteSheet_48
+  - first:
+      213: 1112220696459148441
+    second: _priteSheet_49
+  - first:
+      213: 7193350308334359709
+    second: _priteSheet_50
+  - first:
+      213: 9154543568928550580
+    second: _priteSheet_51
+  - first:
+      213: -7473468444656304489
+    second: _priteSheet_52
+  - first:
+      213: -1529024163761331847
+    second: _priteSheet_53
+  - first:
+      213: 7539597144472456349
+    second: _priteSheet_54
+  - first:
+      213: -3564688896223632219
+    second: _priteSheet_55
+  - first:
+      213: -334528403704707156
+    second: _priteSheet_56
+  - first:
+      213: 2360969250497770632
+    second: _priteSheet_57
+  - first:
+      213: 6222377324781722060
+    second: _priteSheet_58
+  - first:
+      213: -5033396772988665652
+    second: _priteSheet_59
+  - first:
+      213: -8935657563394155945
+    second: _priteSheet_60
+  - first:
+      213: 5740634967193813303
+    second: _priteSheet_61
+  - first:
+      213: -1478104110318871615
+    second: _priteSheet_62
+  - first:
+      213: -839096196793460806
+    second: _priteSheet_63
+  - first:
+      213: 5510048531777368469
+    second: _priteSheet_64
+  - first:
+      213: -831692860357017738
+    second: _priteSheet_65
+  - first:
+      213: 6277264132163574126
+    second: _priteSheet_66
+  - first:
+      213: 8145730769267473810
+    second: _priteSheet_67
+  - first:
+      213: -6285000534452780831
+    second: _priteSheet_68
+  - first:
+      213: -2254257392830763923
+    second: _priteSheet_69
+  - first:
+      213: 1226863858075192435
+    second: _priteSheet_70
+  - first:
+      213: -2939544078103226078
+    second: _priteSheet_71
+  - first:
+      213: -5581755852773907971
+    second: _priteSheet_72
+  - first:
+      213: -2481596962789637224
+    second: _priteSheet_73
+  - first:
+      213: 3640349942406778832
+    second: _priteSheet_74
+  - first:
+      213: -3692002689361123315
+    second: _priteSheet_75
+  - first:
+      213: -532209529864718368
+    second: _priteSheet_76
+  - first:
+      213: 2725394198390832060
+    second: _priteSheet_77
+  - first:
+      213: 3523142859863180057
+    second: _priteSheet_78
+  - first:
+      213: -7778663231293195822
+    second: _priteSheet_79
+  - first:
+      213: 2096039552058607309
+    second: _priteSheet_80
+  - first:
+      213: 3461304084081754417
+    second: _priteSheet_81
+  - first:
+      213: -4326385415717868805
+    second: _priteSheet_82
+  - first:
+      213: 1306231641023107393
+    second: _priteSheet_83
+  - first:
+      213: -4398327111961473309
+    second: _priteSheet_84
+  - first:
+      213: -5804410302830497752
+    second: _priteSheet_85
+  - first:
+      213: 8893877981513899358
+    second: _priteSheet_86
+  - first:
+      213: -6777266252221103214
+    second: _priteSheet_87
+  - first:
+      213: 3396339329396141601
+    second: _priteSheet_88
+  - first:
+      213: 7014130772678189632
+    second: _priteSheet_89
+  - first:
+      213: 545626867516641087
+    second: _priteSheet_90
+  - first:
+      213: -2092268884060205967
+    second: _priteSheet_91
+  - first:
+      213: 4707476581873852890
+    second: _priteSheet_92
+  - first:
+      213: -7143058056021713922
+    second: _priteSheet_93
+  - first:
+      213: -2804854631165036896
+    second: _priteSheet_94
+  - first:
+      213: -3114988149476509239
+    second: _priteSheet_95
+  - first:
+      213: 5253188764405626492
+    second: _priteSheet_96
+  - first:
+      213: -751807003848305866
+    second: _priteSheet_97
+  - first:
+      213: -1698597450253684802
+    second: _priteSheet_98
+  - first:
+      213: 6915261031865864566
+    second: _priteSheet_99
+  - first:
+      213: 6161238451777871356
+    second: _priteSheet_100
+  - first:
+      213: -7084957288184600357
+    second: _priteSheet_101
+  - first:
+      213: 6411671722698763670
+    second: _priteSheet_102
+  - first:
+      213: -6302084174134726705
+    second: _priteSheet_103
+  - first:
+      213: 4798527155884026378
+    second: _priteSheet_104
+  - first:
+      213: -5785531974213251124
+    second: _priteSheet_105
+  - first:
+      213: 3009903727957111492
+    second: _priteSheet_106
+  - first:
+      213: 6217129849028709561
+    second: _priteSheet_107
+  - first:
+      213: 5122402391163901017
+    second: _priteSheet_108
+  - first:
+      213: 2147799741803097207
+    second: _priteSheet_109
+  - first:
+      213: -8556914255128347882
+    second: _priteSheet_110
+  - first:
+      213: 3977348198807904666
+    second: _priteSheet_111
+  - first:
+      213: 4138785390165260722
+    second: _priteSheet_112
+  - first:
+      213: 6383054872967117919
+    second: _priteSheet_113
+  - first:
+      213: -2422966926957958039
+    second: _priteSheet_114
+  - first:
+      213: -8571672972997975175
+    second: _priteSheet_115
+  - first:
+      213: 6809166745718366189
+    second: _priteSheet_116
+  - first:
+      213: -2477066665773625162
+    second: _priteSheet_117
+  - first:
+      213: 5609825284616742693
+    second: _priteSheet_118
+  - first:
+      213: -8534134992869353677
+    second: _priteSheet_119
+  - first:
+      213: -688140338624325669
+    second: _priteSheet_120
+  - first:
+      213: -7993828249425596297
+    second: _priteSheet_121
+  - first:
+      213: 138324526332015303
+    second: _priteSheet_122
+  - first:
+      213: -4377072101551081324
+    second: _priteSheet_123
+  - first:
+      213: 8286420836677660873
+    second: _priteSheet_124
+  - first:
+      213: -3934602572448295898
+    second: _priteSheet_125
+  - first:
+      213: 4455791395040920694
+    second: _priteSheet_126
+  - first:
+      213: -179135042822507909
+    second: _priteSheet_127
+  - first:
+      213: 8757956293758658900
+    second: _priteSheet_128
+  - first:
+      213: 4236041181459039022
+    second: _priteSheet_129
+  - first:
+      213: -2075506085932506919
+    second: _priteSheet_130
+  - first:
+      213: 6484250984357945565
+    second: _priteSheet_131
+  - first:
+      213: -5401305585404665059
+    second: _priteSheet_132
+  - first:
+      213: -5711909879772798219
+    second: _priteSheet_133
+  - first:
+      213: 914879234364829188
+    second: _priteSheet_134
+  - first:
+      213: -6270701531435120004
+    second: _priteSheet_135
+  - first:
+      213: 2871660205379921121
+    second: _priteSheet_136
+  - first:
+      213: -5109713080520866414
+    second: _priteSheet_137
+  - first:
+      213: -2405631784708559536
+    second: _priteSheet_138
+  - first:
+      213: -7057734503321375918
+    second: _priteSheet_139
+  - first:
+      213: 2181427622671435695
+    second: _priteSheet_140
+  - first:
+      213: 6646125875765477656
+    second: _priteSheet_141
+  - first:
+      213: -6058421845930697342
+    second: _priteSheet_142
+  - first:
+      213: -6533300509352866332
+    second: _priteSheet_143
+  - first:
+      213: -3003823123701632961
+    second: _priteSheet_144
+  - first:
+      213: 4897548836506611475
+    second: _priteSheet_145
+  - first:
+      213: -7653472547930585363
+    second: _priteSheet_146
+  - first:
+      213: -4523713035545296123
+    second: _priteSheet_147
+  - first:
+      213: 1708436766855025952
+    second: _priteSheet_148
+  - first:
+      213: -26833718083784826
+    second: _priteSheet_149
+  - first:
+      213: -4148164738068018712
+    second: _priteSheet_150
+  - first:
+      213: -6395218192856410123
+    second: _priteSheet_151
+  - first:
+      213: 5991580509772652693
+    second: _priteSheet_152
+  - first:
+      213: -4705967906519944353
+    second: _priteSheet_153
+  - first:
+      213: 5895969742378239112
+    second: _priteSheet_154
+  - first:
+      213: -7013027297367784635
+    second: _priteSheet_155
+  - first:
+      213: 5510377624835746793
+    second: _priteSheet_156
+  - first:
+      213: -4554939472991693061
+    second: _priteSheet_157
+  - first:
+      213: 84643943318240525
+    second: _priteSheet_158
+  - first:
+      213: 3640332850484337194
+    second: _priteSheet_159
+  - first:
+      213: -6163855098704159143
+    second: _priteSheet_160
+  - first:
+      213: -4743896516496876014
+    second: _priteSheet_161
+  - first:
+      213: 2257440379524744997
+    second: _priteSheet_162
+  - first:
+      213: -6025436266074597925
+    second: _priteSheet_163
+  - first:
+      213: 3165473378544419716
+    second: _priteSheet_164
+  - first:
+      213: 3966268200076706711
+    second: _priteSheet_165
+  - first:
+      213: -8059989853810225463
+    second: _priteSheet_166
+  - first:
+      213: -8850582749094357782
+    second: _priteSheet_167
+  - first:
+      213: 5392213054867228959
+    second: _priteSheet_168
+  - first:
+      213: -8644519083528429300
+    second: _priteSheet_169
+  - first:
+      213: 8853861250852542953
+    second: _priteSheet_170
+  - first:
+      213: -7841382699380153109
+    second: _priteSheet_171
+  - first:
+      213: 8251311819396236495
+    second: _priteSheet_172
+  - first:
+      213: -7452578801785055499
+    second: _priteSheet_173
+  - first:
+      213: 6099046616056448132
+    second: _priteSheet_174
+  - first:
+      213: -5289811781570223014
+    second: _priteSheet_175
+  - first:
+      213: -2809733500895893814
+    second: _priteSheet_176
+  - first:
+      213: -4800199709962059027
+    second: _priteSheet_177
+  - first:
+      213: -7019046159587119262
+    second: _priteSheet_178
+  - first:
+      213: 519564074737540912
+    second: _priteSheet_179
+  - first:
+      213: -6841949064868270770
+    second: _priteSheet_180
+  - first:
+      213: 967671459478614214
+    second: _priteSheet_181
+  - first:
+      213: 764452436432223520
+    second: _priteSheet_182
+  - first:
+      213: 2608597195926126477
+    second: _priteSheet_183
+  - first:
+      213: -3167950317783277084
+    second: _priteSheet_184
+  - first:
+      213: -3890934810171576042
+    second: _priteSheet_185
+  - first:
+      213: 1595483433379349452
+    second: _priteSheet_186
+  - first:
+      213: 6526646428314750082
+    second: _priteSheet_187
+  - first:
+      213: -3049616439271875532
+    second: _priteSheet_188
+  - first:
+      213: -3601166359467396637
+    second: _priteSheet_189
+  - first:
+      213: 8240878868119580954
+    second: _priteSheet_190
+  - first:
+      213: -9049864723592733679
+    second: _priteSheet_191
+  - first:
+      213: -7696105811884407054
+    second: _priteSheet_192
+  - first:
+      213: -6423553479719136728
+    second: _priteSheet_193
+  - first:
+      213: -3531224860715513072
+    second: _priteSheet_194
+  - first:
+      213: -1642567036495783000
+    second: _priteSheet_195
+  - first:
+      213: 1591972523601686166
+    second: _priteSheet_196
+  - first:
+      213: 6157258777349651813
+    second: _priteSheet_197
+  - first:
+      213: -3181011989754175821
+    second: _priteSheet_198
+  - first:
+      213: -4924612017014281520
+    second: _priteSheet_199
+  - first:
+      213: -8482537410960604222
+    second: _priteSheet_200
+  - first:
+      213: -7740486204573577777
+    second: _priteSheet_201
+  - first:
+      213: -8250600012789994748
+    second: _priteSheet_202
+  - first:
+      213: -9125945812501106876
+    second: _priteSheet_203
+  - first:
+      213: 3255857450867403977
+    second: _priteSheet_204
+  - first:
+      213: -7302341088641178888
+    second: _priteSheet_205
+  - first:
+      213: -4381144286703785673
+    second: _priteSheet_206
+  - first:
+      213: 7679070680116963229
+    second: _priteSheet_207
+  - first:
+      213: 8318603205074751246
+    second: _priteSheet_208
+  - first:
+      213: -895174308127280129
+    second: _priteSheet_209
+  - first:
+      213: 5536323413103916944
+    second: _priteSheet_210
+  - first:
+      213: -632664692204091795
+    second: _priteSheet_211
+  - first:
+      213: -152675348448111635
+    second: _priteSheet_212
+  - first:
+      213: -8432787393204067299
+    second: _priteSheet_213
+  - first:
+      213: 2211789929843938449
+    second: _priteSheet_214
+  - first:
+      213: -4993926756685019236
+    second: _priteSheet_215
+  - first:
+      213: -2464816847142540041
+    second: _priteSheet_216
+  - first:
+      213: 2805312430998795170
+    second: _priteSheet_217
+  - first:
+      213: -5966936852943188393
+    second: _priteSheet_218
+  - first:
+      213: -6588113081554261714
+    second: _priteSheet_219
+  - first:
+      213: 2207535362322559139
+    second: _priteSheet_220
+  - first:
+      213: -586760273663783837
+    second: _priteSheet_221
+  - first:
+      213: -8148660332473482180
+    second: _priteSheet_222
+  - first:
+      213: 6046946595453772417
+    second: _priteSheet_223
+  - first:
+      213: -6471820179736801772
+    second: _priteSheet_224
+  - first:
+      213: 6805002236406523317
+    second: _priteSheet_225
+  - first:
+      213: -5262603820693606744
+    second: _priteSheet_226
+  - first:
+      213: 1145604034373873007
+    second: _priteSheet_227
+  - first:
+      213: -2547010657135943496
+    second: _priteSheet_228
+  - first:
+      213: 5754892897082602959
+    second: _priteSheet_229
+  - first:
+      213: 553151738035282094
+    second: _priteSheet_230
+  - first:
+      213: -6217242583597603034
+    second: _priteSheet_231
+  - first:
+      213: -7760575513113854506
+    second: _priteSheet_232
+  - first:
+      213: -302535754404776779
+    second: _priteSheet_233
+  - first:
+      213: 8831121614267662778
+    second: _priteSheet_234
+  - first:
+      213: -7985254779394109219
+    second: _priteSheet_235
+  - first:
+      213: 258573270193667658
+    second: _priteSheet_236
+  - first:
+      213: -8882645393120224927
+    second: _priteSheet_237
+  - first:
+      213: 8909445832688400918
+    second: _priteSheet_238
+  - first:
+      213: -6983015859751873494
+    second: _priteSheet_239
+  - first:
+      213: 713945295503620702
+    second: _priteSheet_240
+  - first:
+      213: 1327555911611421827
+    second: _priteSheet_241
+  - first:
+      213: 4027669361668446334
+    second: _priteSheet_242
+  - first:
+      213: -3736466074775045146
+    second: _priteSheet_243
+  - first:
+      213: 1756729763022768075
+    second: _priteSheet_244
+  - first:
+      213: -8941476370344084302
+    second: _priteSheet_245
+  - first:
+      213: 5100039304349340405
+    second: _priteSheet_246
+  - first:
+      213: 2067856153290600182
+    second: _priteSheet_247
+  - first:
+      213: -6302516980716728405
+    second: _priteSheet_248
+  - first:
+      213: 4198657622024716588
+    second: _priteSheet_249
+  - first:
+      213: 5344290282741567648
+    second: _priteSheet_250
+  - first:
+      213: 5875063492085066786
+    second: _priteSheet_251
+  - first:
+      213: 420019568905612745
+    second: _priteSheet_252
+  - first:
+      213: 2464439218967124367
+    second: _priteSheet_253
+  - first:
+      213: -8610028110723797478
+    second: _priteSheet_254
+  - first:
+      213: -6589022687762281005
+    second: _priteSheet_255
+  - first:
+      213: 3167343367861238535
+    second: _priteSheet_256
+  - first:
+      213: -3229205824112895763
+    second: _priteSheet_257
+  - first:
+      213: 4467663792528523360
+    second: _priteSheet_258
+  - first:
+      213: 3104691618473648574
+    second: _priteSheet_259
+  - first:
+      213: -5688615973869910641
+    second: _priteSheet_260
+  - first:
+      213: 5261984044724751489
+    second: _priteSheet_261
+  - first:
+      213: -3132132171801043435
+    second: _priteSheet_262
+  - first:
+      213: -7753591257778137951
+    second: _priteSheet_263
+  - first:
+      213: -856696947408491300
+    second: _priteSheet_264
+  - first:
+      213: 1071373470290131374
+    second: _priteSheet_265
+  - first:
+      213: 2747618236319407629
+    second: _priteSheet_266
+  - first:
+      213: -7882505539005342723
+    second: _priteSheet_267
+  - first:
+      213: 4778998968249379087
+    second: _priteSheet_268
+  - first:
+      213: -4697235618075701806
+    second: _priteSheet_269
+  - first:
+      213: -7264184001562684028
+    second: _priteSheet_270
+  - first:
+      213: -4287568122692931196
+    second: _priteSheet_271
+  - first:
+      213: 6329998255921858493
+    second: _priteSheet_272
+  - first:
+      213: 1153596832142865565
+    second: _priteSheet_273
+  - first:
+      213: -503194529314111399
+    second: _priteSheet_274
+  - first:
+      213: 3954119687561315887
+    second: _priteSheet_275
+  - first:
+      213: 2507740651031662466
+    second: _priteSheet_276
+  - first:
+      213: 5822904202553779201
+    second: _priteSheet_277
+  - first:
+      213: 2646969439500267750
+    second: _priteSheet_278
+  - first:
+      213: 7629769939141696241
+    second: _priteSheet_279
+  - first:
+      213: 2889092629339514351
+    second: _priteSheet_280
+  - first:
+      213: -2866766073600357284
+    second: _priteSheet_281
+  - first:
+      213: -8644974894966108007
+    second: _priteSheet_282
+  - first:
+      213: 637515511936082983
+    second: _priteSheet_283
+  - first:
+      213: -8939904031816866744
+    second: _priteSheet_284
+  - first:
+      213: -3304951358227392968
+    second: _priteSheet_285
+  - first:
+      213: 1074502285800447645
+    second: _priteSheet_286
+  - first:
+      213: -5089278634971923709
+    second: _priteSheet_287
+  - first:
+      213: -1913253372188150290
+    second: _priteSheet_288
+  - first:
+      213: -3729417707122361486
+    second: _priteSheet_289
+  - first:
+      213: -1530414104680967423
+    second: _priteSheet_290
+  - first:
+      213: 1320165882823923872
+    second: _priteSheet_291
+  - first:
+      213: -1569837821618504880
+    second: _priteSheet_292
+  - first:
+      213: 4613772123813112085
+    second: _priteSheet_293
+  - first:
+      213: 7937287826241226275
+    second: _priteSheet_294
+  - first:
+      213: -8275612127366934306
+    second: _priteSheet_295
+  - first:
+      213: 6051742445892451077
+    second: _priteSheet_296
+  - first:
+      213: 8836255511166791522
+    second: _priteSheet_297
+  - first:
+      213: 8290102654697348536
+    second: _priteSheet_298
+  - first:
+      213: -6299643835283830637
+    second: _priteSheet_299
+  - first:
+      213: -736900300421035323
+    second: _priteSheet_300
+  - first:
+      213: 7102227654907860687
+    second: _priteSheet_301
+  - first:
+      213: -9001386350885834118
+    second: _priteSheet_302
+  - first:
+      213: 655060690296395907
+    second: _priteSheet_303
+  - first:
+      213: 6834083472859236265
+    second: _priteSheet_304
+  - first:
+      213: 7355024827503650379
+    second: _priteSheet_305
+  - first:
+      213: 7659974283433307424
+    second: _priteSheet_306
+  - first:
+      213: 5391579013114486398
+    second: _priteSheet_307
+  - first:
+      213: 2695383969701679464
+    second: _priteSheet_308
+  - first:
+      213: -2099969336621599197
+    second: _priteSheet_309
+  - first:
+      213: -6803792891349090694
+    second: _priteSheet_310
+  - first:
+      213: -4226928485749762938
+    second: _priteSheet_311
+  - first:
+      213: 1786081280719726616
+    second: _priteSheet_312
+  - first:
+      213: 7964778581779380967
+    second: _priteSheet_313
+  - first:
+      213: -3374671540148783211
+    second: _priteSheet_314
+  - first:
+      213: -197184644180651799
+    second: _priteSheet_315
+  - first:
+      213: 6342738000349926075
+    second: _priteSheet_316
+  - first:
+      213: 8422102147457600473
+    second: _priteSheet_317
+  - first:
+      213: -1595887127589855070
+    second: _priteSheet_318
+  - first:
+      213: -7544375208004318921
+    second: _priteSheet_319
+  - first:
+      213: 4898133920597534264
+    second: _priteSheet_320
+  - first:
+      213: -797560986745136598
+    second: _priteSheet_321
+  - first:
+      213: 8241018062685496843
+    second: _priteSheet_322
+  - first:
+      213: -7660391605078362710
+    second: _priteSheet_323
+  - first:
+      213: 3532638665856031422
+    second: _priteSheet_324
+  - first:
+      213: -6882826734812497400
+    second: _priteSheet_325
+  - first:
+      213: 1731683333911041268
+    second: _priteSheet_326
+  - first:
+      213: -2945274754204858317
+    second: _priteSheet_327
+  - first:
+      213: -5364514477275858017
+    second: _priteSheet_328
+  - first:
+      213: 810247149902882402
+    second: _priteSheet_329
+  - first:
+      213: 902525579299725436
+    second: _priteSheet_330
+  - first:
+      213: -4931334483938768895
+    second: _priteSheet_331
+  - first:
+      213: 4014809248270109414
+    second: _priteSheet_332
+  - first:
+      213: -6267144834818252745
+    second: _priteSheet_333
+  - first:
+      213: -8368214646103364484
+    second: _priteSheet_334
+  - first:
+      213: -7553352712621157660
+    second: _priteSheet_335
+  - first:
+      213: -8996471792658104464
+    second: _priteSheet_336
+  - first:
+      213: 2072856205746399288
+    second: _priteSheet_337
+  - first:
+      213: 1946547619404740091
+    second: _priteSheet_338
+  - first:
+      213: -5135144084221948318
+    second: _priteSheet_339
+  - first:
+      213: -526838487247906910
+    second: _priteSheet_340
+  - first:
+      213: -7658287015665663810
+    second: _priteSheet_341
+  - first:
+      213: 9047804630165098376
+    second: _priteSheet_342
+  - first:
+      213: 218299823868846777
+    second: _priteSheet_343
+  - first:
+      213: 649921297643866029
+    second: _priteSheet_344
+  - first:
+      213: 1308762006737751645
+    second: _priteSheet_345
+  - first:
+      213: 922100939981311946
+    second: _priteSheet_346
+  - first:
+      213: -7419886208771728635
+    second: _priteSheet_347
+  - first:
+      213: 6012413665081989879
+    second: _priteSheet_348
+  - first:
+      213: -302076303177416200
+    second: _priteSheet_349
+  - first:
+      213: -3731567017674517284
+    second: _priteSheet_350
+  - first:
+      213: 1427630503506111775
+    second: _priteSheet_351
+  - first:
+      213: -5436194849211847166
+    second: _priteSheet_352
+  - first:
+      213: 2895468866483663505
+    second: _priteSheet_353
+  - first:
+      213: 8815958806428861866
+    second: _priteSheet_354
+  - first:
+      213: -8960189619621059487
+    second: _priteSheet_355
+  - first:
+      213: 8438810380185017836
+    second: _priteSheet_356
+  - first:
+      213: 328345537195118026
+    second: _priteSheet_357
+  - first:
+      213: 2006204144222059561
+    second: _priteSheet_358
+  - first:
+      213: -6772595900661307454
+    second: _priteSheet_359
+  - first:
+      213: -8125058434152918217
+    second: _priteSheet_360
+  - first:
+      213: -5070289524710796937
+    second: _priteSheet_361
+  - first:
+      213: -312825349018684394
+    second: _priteSheet_362
+  - first:
+      213: 1939783161369856779
+    second: _priteSheet_363
+  - first:
+      213: 4529510458706808862
+    second: _priteSheet_364
+  - first:
+      213: -1172853457773234879
+    second: _priteSheet_365
+  - first:
+      213: 1846864692449167849
+    second: _priteSheet_366
+  - first:
+      213: -843300204266232350
+    second: _priteSheet_367
+  - first:
+      213: -4484432257236085202
+    second: _priteSheet_368
+  - first:
+      213: -3308148620777237325
+    second: _priteSheet_369
+  - first:
+      213: 4390567535352211387
+    second: _priteSheet_370
+  - first:
+      213: -8259135677669912772
+    second: _priteSheet_371
+  - first:
+      213: -3322735699457089399
+    second: _priteSheet_372
+  - first:
+      213: 7723391602499122442
+    second: _priteSheet_373
+  - first:
+      213: -1593432308289782873
+    second: _priteSheet_374
+  - first:
+      213: -5452500174890281777
+    second: _priteSheet_375
+  - first:
+      213: 2409005483127804308
+    second: _priteSheet_376
+  - first:
+      213: -7091496849706582161
+    second: _priteSheet_377
+  - first:
+      213: -8606327205500902396
+    second: _priteSheet_378
+  - first:
+      213: 2358677396260451649
+    second: _priteSheet_379
+  - first:
+      213: 1903998494712117807
+    second: _priteSheet_380
+  - first:
+      213: 7423536717240086182
+    second: _priteSheet_381
+  - first:
+      213: 5105362510534454248
+    second: _priteSheet_382
+  - first:
+      213: -7272927715288076178
+    second: _priteSheet_383
+  - first:
+      213: -3419427428077168548
+    second: _priteSheet_384
+  - first:
+      213: 6230712175494073649
+    second: _priteSheet_385
+  - first:
+      213: 40012363372652841
+    second: _priteSheet_386
+  - first:
+      213: 332280001404680874
+    second: _priteSheet_387
+  - first:
+      213: -8176159399093100506
+    second: _priteSheet_388
+  - first:
+      213: 2596653039610306096
+    second: _priteSheet_389
+  - first:
+      213: -4323753704210642947
+    second: _priteSheet_390
+  - first:
+      213: 2633180036057085383
+    second: _priteSheet_391
+  - first:
+      213: 7141395099776130569
+    second: _priteSheet_392
+  - first:
+      213: 9148737879908819785
+    second: _priteSheet_393
+  - first:
+      213: -6410508314598112524
+    second: _priteSheet_394
+  - first:
+      213: 5794929969161865910
+    second: _priteSheet_395
+  - first:
+      213: 1208463600250350109
+    second: _priteSheet_396
+  - first:
+      213: 3057756393710445378
+    second: _priteSheet_397
+  - first:
+      213: 3793324013630179658
+    second: _priteSheet_398
+  - first:
+      213: 8475625100593897867
+    second: _priteSheet_399
+  - first:
+      213: 880894661754192451
+    second: _priteSheet_400
+  - first:
+      213: -7924393243973391216
+    second: _priteSheet_401
+  - first:
+      213: 8925363998300459571
+    second: _priteSheet_402
+  - first:
+      213: 5691549204655563830
+    second: _priteSheet_403
+  - first:
+      213: -2166306902861204276
+    second: _priteSheet_404
+  - first:
+      213: -2397887287156240372
+    second: _priteSheet_405
+  - first:
+      213: -7304050725756913047
+    second: _priteSheet_406
+  - first:
+      213: -2322425444010853168
+    second: _priteSheet_407
+  - first:
+      213: -52759627185905347
+    second: _priteSheet_408
+  - first:
+      213: 6466698409999225206
+    second: _priteSheet_409
+  - first:
+      213: -3584730619068626264
+    second: _priteSheet_410
+  - first:
+      213: -3933549003873531814
+    second: _priteSheet_411
+  - first:
+      213: 8391837298562267828
+    second: _priteSheet_412
+  - first:
+      213: 4452182245140570209
+    second: _priteSheet_413
+  - first:
+      213: 2952250953742095522
+    second: _priteSheet_414
+  - first:
+      213: 8182445501820040863
+    second: _priteSheet_415
+  - first:
+      213: 6975792689007506826
+    second: _priteSheet_416
+  - first:
+      213: 36107425289080665
+    second: _priteSheet_417
+  - first:
+      213: 4569592981799692480
+    second: _priteSheet_418
+  - first:
+      213: 6799380341449224606
+    second: _priteSheet_419
+  - first:
+      213: 8400788003273323401
+    second: _priteSheet_420
+  - first:
+      213: -3365101040983516733
+    second: _priteSheet_421
+  - first:
+      213: -7026783953673054224
+    second: _priteSheet_422
+  - first:
+      213: 5685872653449071234
+    second: _priteSheet_423
+  - first:
+      213: 92247262781877407
+    second: _priteSheet_424
+  - first:
+      213: 236850314987842834
+    second: _priteSheet_425
+  - first:
+      213: -964161605860395911
+    second: _priteSheet_426
+  - first:
+      213: 5444344726267220358
+    second: _priteSheet_427
+  - first:
+      213: -4085131920588090159
+    second: _priteSheet_428
+  - first:
+      213: -5750719305722538691
+    second: _priteSheet_429
+  - first:
+      213: 5167916303415719387
+    second: _priteSheet_430
+  - first:
+      213: -5802058976202993721
+    second: _priteSheet_431
+  - first:
+      213: -4974175314231989153
+    second: _priteSheet_432
+  - first:
+      213: 3584486185016387962
+    second: _priteSheet_433
+  - first:
+      213: 6006060249983526664
+    second: _priteSheet_434
+  - first:
+      213: 7997950355619861177
+    second: _priteSheet_435
+  - first:
+      213: 4934514643326926912
+    second: _priteSheet_436
+  - first:
+      213: 2636132114425670113
+    second: _priteSheet_437
+  - first:
+      213: -4594709340887364914
+    second: _priteSheet_438
+  - first:
+      213: 5529299907316145406
+    second: _priteSheet_439
+  - first:
+      213: -3713779527518653206
+    second: _priteSheet_440
+  - first:
+      213: -1036963328612487343
+    second: _priteSheet_441
+  - first:
+      213: 723433253108211222
+    second: _priteSheet_442
+  - first:
+      213: -1672274612565198841
+    second: _priteSheet_443
+  - first:
+      213: 2611730544140872817
+    second: _priteSheet_444
+  - first:
+      213: 2850780364756167753
+    second: _priteSheet_445
+  - first:
+      213: -2238559995106264731
+    second: _priteSheet_446
+  - first:
+      213: -4563631606388758421
+    second: _priteSheet_447
+  - first:
+      213: 6459810866618701144
+    second: _priteSheet_448
+  - first:
+      213: 3643830609548865377
+    second: _priteSheet_449
+  - first:
+      213: -3661481464623130530
+    second: _priteSheet_450
+  - first:
+      213: -7128654662280084865
+    second: _priteSheet_451
+  - first:
+      213: -51151423162227754
+    second: _priteSheet_452
+  - first:
+      213: -8928224636765495876
+    second: _priteSheet_453
+  - first:
+      213: 1582649049622125494
+    second: _priteSheet_454
+  - first:
+      213: -8938751611799913892
+    second: _priteSheet_455
+  - first:
+      213: 1438384265159173110
+    second: _priteSheet_456
+  - first:
+      213: 5497267186078131167
+    second: _priteSheet_457
+  - first:
+      213: 6025777402770645041
+    second: _priteSheet_458
+  - first:
+      213: 3796732828750298921
+    second: _priteSheet_459
+  - first:
+      213: 2230669276124310267
+    second: _priteSheet_460
+  - first:
+      213: 6763677099767856037
+    second: _priteSheet_461
+  - first:
+      213: 2110114257904142814
+    second: _priteSheet_462
+  - first:
+      213: -903084306663771512
+    second: _priteSheet_463
+  - first:
+      213: 2017228028292906751
+    second: _priteSheet_464
+  - first:
+      213: -8046507015576157935
+    second: _priteSheet_465
+  - first:
+      213: -1534747952234349890
+    second: _priteSheet_466
+  - first:
+      213: -5433766507991268060
+    second: _priteSheet_467
+  - first:
+      213: 4730577056180750630
+    second: _priteSheet_468
+  - first:
+      213: 4759387853666974299
+    second: _priteSheet_469
+  - first:
+      213: 8891778052782855063
+    second: _priteSheet_470
+  - first:
+      213: 7334984978137683170
+    second: _priteSheet_471
+  - first:
+      213: -1058785864588004611
+    second: _priteSheet_472
+  - first:
+      213: -3032814585548528206
+    second: _priteSheet_473
+  - first:
+      213: -247668607613362790
+    second: _priteSheet_474
+  - first:
+      213: -5471738133401116338
+    second: _priteSheet_475
+  - first:
+      213: -6739210137122753612
+    second: _priteSheet_476
+  - first:
+      213: 3547338396754536993
+    second: _priteSheet_477
+  - first:
+      213: -1559034228965579680
+    second: _priteSheet_478
+  - first:
+      213: -5887672264434083550
+    second: _priteSheet_479
+  - first:
+      213: -3570996363702764287
+    second: _priteSheet_480
+  - first:
+      213: 6740333566502592894
+    second: _priteSheet_481
+  - first:
+      213: 6138329878824749300
+    second: _priteSheet_482
+  - first:
+      213: 4506664768906641535
+    second: _priteSheet_483
+  - first:
+      213: -8956474832805262343
+    second: _priteSheet_484
+  - first:
+      213: -704336999982856681
+    second: _priteSheet_485
+  - first:
+      213: -6811619872163079037
+    second: _priteSheet_486
+  - first:
+      213: 8607408931081683587
+    second: _priteSheet_487
+  - first:
+      213: 5859411652147130742
+    second: _priteSheet_488
+  - first:
+      213: 4469872983919927616
+    second: _priteSheet_489
+  - first:
+      213: 601157811350286683
+    second: _priteSheet_490
+  - first:
+      213: -2574435722517551653
+    second: _priteSheet_491
+  - first:
+      213: -4091954054766288942
+    second: _priteSheet_492
+  - first:
+      213: -5586386549878292764
+    second: _priteSheet_493
+  - first:
+      213: -4129959962909965372
+    second: _priteSheet_494
+  - first:
+      213: 2961156527761376635
+    second: _priteSheet_495
+  - first:
+      213: -3650574238379302812
+    second: _priteSheet_496
+  - first:
+      213: -3527934628281423107
+    second: _priteSheet_497
+  - first:
+      213: 3999572987727204777
+    second: _priteSheet_498
+  - first:
+      213: -4729100166619777078
+    second: _priteSheet_499
+  - first:
+      213: 5239854868653503401
+    second: _priteSheet_500
+  - first:
+      213: -8390886360890537725
+    second: _priteSheet_501
+  - first:
+      213: -559391837200808527
+    second: _priteSheet_502
+  - first:
+      213: 5530273413103270172
+    second: _priteSheet_503
+  - first:
+      213: -1565621200828014752
+    second: _priteSheet_504
+  - first:
+      213: -6893711452968822542
+    second: _priteSheet_505
+  - first:
+      213: -744930319871196291
+    second: _priteSheet_506
+  - first:
+      213: 5263185311810402435
+    second: _priteSheet_507
+  - first:
+      213: -408647414872901111
+    second: _priteSheet_508
+  - first:
+      213: -3421495312405759270
+    second: _priteSheet_509
+  - first:
+      213: 1037100856874037722
+    second: _priteSheet_510
+  - first:
+      213: 4461689286457315714
+    second: _priteSheet_511
+  - first:
+      213: 2359246164299938135
+    second: _priteSheet_512
+  - first:
+      213: 1502941605052598467
+    second: _priteSheet_513
+  - first:
+      213: 3605038980671772782
+    second: _priteSheet_514
+  - first:
+      213: -2311446582808798411
+    second: _priteSheet_515
+  - first:
+      213: 3575855596917145583
+    second: _priteSheet_516
+  - first:
+      213: 1328135211413697996
+    second: _priteSheet_517
+  - first:
+      213: 5726056550533824931
+    second: _priteSheet_518
+  - first:
+      213: -2393535672435666295
+    second: _priteSheet_519
+  - first:
+      213: 4010115185359016129
+    second: _priteSheet_520
+  - first:
+      213: 1106399146318036511
+    second: _priteSheet_521
+  - first:
+      213: 8422779002091188665
+    second: _priteSheet_522
+  - first:
+      213: 2848823003361043041
+    second: _priteSheet_523
+  - first:
+      213: 4093506069132159088
+    second: _priteSheet_524
+  - first:
+      213: 8955990888882861883
+    second: _priteSheet_525
+  - first:
+      213: -4060145368745121033
+    second: _priteSheet_526
+  - first:
+      213: -2079623039084340811
+    second: _priteSheet_527
+  - first:
+      213: -8846245515370550585
+    second: _priteSheet_528
+  - first:
+      213: -7871496342660957438
+    second: _priteSheet_529
+  - first:
+      213: -581865437955109428
+    second: _priteSheet_530
+  - first:
+      213: -8790297501686501091
+    second: _priteSheet_531
+  - first:
+      213: -4095186771523338411
+    second: _priteSheet_532
+  - first:
+      213: 5911355470691670570
+    second: _priteSheet_533
+  - first:
+      213: 3546875593298604991
+    second: _priteSheet_534
+  - first:
+      213: 2614109115523207644
+    second: _priteSheet_535
+  - first:
+      213: -5131880248008611799
+    second: _priteSheet_536
+  - first:
+      213: 6147495517341387939
+    second: _priteSheet_537
+  - first:
+      213: 5467172783850418081
+    second: _priteSheet_538
+  - first:
+      213: 6861359281224491930
+    second: _priteSheet_539
+  - first:
+      213: -8705006638090549439
+    second: _priteSheet_540
+  - first:
+      213: 4533350269218612872
+    second: _priteSheet_541
+  - first:
+      213: 8768781750132983897
+    second: _priteSheet_542
+  - first:
+      213: -7480951112567204945
+    second: _priteSheet_543
+  - first:
+      213: 803157982586983023
+    second: _priteSheet_544
+  - first:
+      213: 2688516359748895267
+    second: _priteSheet_545
+  - first:
+      213: -7795412383652759604
+    second: _priteSheet_546
+  - first:
+      213: -1047550479973242408
+    second: _priteSheet_547
+  - first:
+      213: 3151234131053669736
+    second: _priteSheet_548
+  - first:
+      213: -5854876924265801971
+    second: _priteSheet_549
+  - first:
+      213: -7525950358574306739
+    second: _priteSheet_550
+  - first:
+      213: 4474938603124457258
+    second: _priteSheet_551
+  - first:
+      213: -1033796178438214860
+    second: _priteSheet_552
+  - first:
+      213: -3498724012891016688
+    second: _priteSheet_553
+  - first:
+      213: -7595227047756917777
+    second: _priteSheet_554
+  - first:
+      213: -2485420133462999410
+    second: _priteSheet_555
+  - first:
+      213: 5519324915588764902
+    second: _priteSheet_556
+  - first:
+      213: 789134139788058247
+    second: _priteSheet_557
+  - first:
+      213: -6838499817788971556
+    second: _priteSheet_558
+  - first:
+      213: -597027082109018723
+    second: _priteSheet_559
+  - first:
+      213: 6603337195705482140
+    second: _priteSheet_560
+  - first:
+      213: -6343881436824848719
+    second: _priteSheet_561
+  - first:
+      213: 8305591677399567526
+    second: _priteSheet_562
+  - first:
+      213: -8148075561090031931
+    second: _priteSheet_563
+  - first:
+      213: -6109057823344316887
+    second: _priteSheet_564
+  - first:
+      213: -7468114452573005080
+    second: _priteSheet_565
+  - first:
+      213: 1882840139803458703
+    second: _priteSheet_566
+  - first:
+      213: -3938319716646523773
+    second: _priteSheet_567
+  - first:
+      213: -8876765323619354511
+    second: _priteSheet_568
+  - first:
+      213: -3081256338131674786
+    second: _priteSheet_569
+  - first:
+      213: 583946297600898828
+    second: _priteSheet_570
+  - first:
+      213: 437101162963187363
+    second: _priteSheet_571
+  - first:
+      213: 7393219161918584749
+    second: _priteSheet_572
+  - first:
+      213: 957439666975537981
+    second: _priteSheet_573
+  - first:
+      213: 3362814227065065882
+    second: _priteSheet_574
+  - first:
+      213: -87898667908764971
+    second: _priteSheet_575
+  - first:
+      213: -6892300476641218424
+    second: _priteSheet_576
+  - first:
+      213: -1723954900874391479
+    second: _priteSheet_577
+  - first:
+      213: -5929309202561783142
+    second: _priteSheet_578
+  - first:
+      213: 1131522037596392570
+    second: _priteSheet_579
+  - first:
+      213: -3480725546745494898
+    second: _priteSheet_580
+  - first:
+      213: 1015598502440350673
+    second: _priteSheet_581
+  - first:
+      213: 6686532923247305022
+    second: _priteSheet_582
+  - first:
+      213: 357966195220644
+    second: _priteSheet_583
+  - first:
+      213: 6165706967462553964
+    second: _priteSheet_584
+  - first:
+      213: 5113541718729743152
+    second: _priteSheet_585
+  - first:
+      213: 2614417705681385617
+    second: _priteSheet_586
+  - first:
+      213: -7417619182997069083
+    second: _priteSheet_587
+  - first:
+      213: -7509256715546681096
+    second: _priteSheet_588
+  - first:
+      213: 4225181063874738658
+    second: _priteSheet_589
+  - first:
+      213: -2184175259019452411
+    second: _priteSheet_590
+  - first:
+      213: -491651576516435702
+    second: _priteSheet_591
+  - first:
+      213: 7663912103629841702
+    second: _priteSheet_592
+  - first:
+      213: 7446838827358714377
+    second: _priteSheet_593
+  - first:
+      213: -8070794901473457023
+    second: _priteSheet_594
+  - first:
+      213: -5843549108942095663
+    second: _priteSheet_595
+  - first:
+      213: 4419459319880192840
+    second: _priteSheet_596
+  - first:
+      213: 5268957593349999940
+    second: _priteSheet_597
+  - first:
+      213: 590973108713908574
+    second: _priteSheet_598
+  - first:
+      213: -5645288511280899882
+    second: _priteSheet_599
+  - first:
+      213: 7522885158731797605
+    second: _priteSheet_600
+  - first:
+      213: -1091618764790039726
+    second: _priteSheet_601
+  - first:
+      213: 5895271501181409542
+    second: _priteSheet_602
+  - first:
+      213: -234579296523862767
+    second: _priteSheet_603
+  - first:
+      213: -8323552238852482057
+    second: _priteSheet_604
+  - first:
+      213: -2637890180969071064
+    second: _priteSheet_605
+  - first:
+      213: 888220305416520513
+    second: _priteSheet_606
+  - first:
+      213: -8844214250830720619
+    second: _priteSheet_607
+  - first:
+      213: -2555470304969838674
+    second: _priteSheet_608
+  - first:
+      213: 7080095773047293707
+    second: _priteSheet_609
+  - first:
+      213: 8606528412594029798
+    second: _priteSheet_610
+  - first:
+      213: -2837987980499881191
+    second: _priteSheet_611
+  - first:
+      213: 8041867798072441321
+    second: _priteSheet_612
+  - first:
+      213: -4062735745166910779
+    second: _priteSheet_613
+  - first:
+      213: -9137207090803584203
+    second: _priteSheet_614
+  - first:
+      213: -7941509949990987321
+    second: _priteSheet_615
+  - first:
+      213: 7145148290346645781
+    second: _priteSheet_616
+  - first:
+      213: 6765187713093252079
+    second: _priteSheet_617
+  - first:
+      213: -8702147843159910775
+    second: _priteSheet_618
+  - first:
+      213: -1887811598458076143
+    second: _priteSheet_619
+  - first:
+      213: 8527496370225016876
+    second: _priteSheet_620
+  - first:
+      213: 3546307861315591229
+    second: _priteSheet_621
+  - first:
+      213: -9179751553104425434
+    second: _priteSheet_622
+  - first:
+      213: 3463032481147805167
+    second: _priteSheet_623
+  - first:
+      213: 2375678261214643008
+    second: _priteSheet_624
+  - first:
+      213: 3823189643047214981
+    second: _priteSheet_625
+  - first:
+      213: -3971635018438236960
+    second: _priteSheet_626
+  - first:
+      213: 4427513410271165498
+    second: _priteSheet_627
+  - first:
+      213: 2734651295922424986
+    second: _priteSheet_628
+  - first:
+      213: -1918286527131400614
+    second: _priteSheet_629
+  - first:
+      213: -6473840439698433069
+    second: _priteSheet_630
+  - first:
+      213: -8170807406611630664
+    second: _priteSheet_631
+  - first:
+      213: 6971990188709686218
+    second: _priteSheet_632
+  - first:
+      213: -9151848827102965070
+    second: _priteSheet_633
+  - first:
+      213: -1008153638301263122
+    second: _priteSheet_634
+  - first:
+      213: 5585569092625517838
+    second: _priteSheet_635
+  - first:
+      213: 439973999552647643
+    second: _priteSheet_636
+  - first:
+      213: -6111611968414106942
+    second: _priteSheet_637
+  - first:
+      213: 13238845452240973
+    second: _priteSheet_638
+  - first:
+      213: -6935632289581830373
+    second: _priteSheet_639
+  - first:
+      213: 458077742157201486
+    second: _priteSheet_640
+  - first:
+      213: 150796361385587065
+    second: _priteSheet_641
+  - first:
+      213: -1985599534601821628
+    second: _priteSheet_642
+  - first:
+      213: 896843476050294281
+    second: _priteSheet_643
+  - first:
+      213: -7544618265449411594
+    second: _priteSheet_644
+  - first:
+      213: -4181147033605137136
+    second: _priteSheet_645
+  - first:
+      213: 5960079273062092966
+    second: _priteSheet_646
+  - first:
+      213: -337727219921256675
+    second: _priteSheet_647
+  - first:
+      213: 2558645510221990925
+    second: _priteSheet_648
+  - first:
+      213: -9097171416469458221
+    second: _priteSheet_649
+  - first:
+      213: -6181471444744288626
+    second: _priteSheet_650
+  - first:
+      213: 8366177022849527364
+    second: _priteSheet_651
+  - first:
+      213: -6154956522678058242
+    second: _priteSheet_652
+  - first:
+      213: -4486409260460035101
+    second: _priteSheet_653
+  - first:
+      213: -4519011933925560639
+    second: _priteSheet_654
+  - first:
+      213: 8430326684562700861
+    second: _priteSheet_655
+  - first:
+      213: -4761515972626198400
+    second: _priteSheet_656
+  - first:
+      213: -2596351046215557792
+    second: _priteSheet_657
+  - first:
+      213: 5897353057363451792
+    second: _priteSheet_658
+  - first:
+      213: 2083977354085831648
+    second: _priteSheet_659
+  - first:
+      213: -8162586361611417969
+    second: _priteSheet_660
+  - first:
+      213: -6296618689094254401
+    second: _priteSheet_661
+  - first:
+      213: -6235752493384560972
+    second: _priteSheet_662
+  - first:
+      213: 3461790896847432845
+    second: _priteSheet_663
+  - first:
+      213: 2343303329927035535
+    second: _priteSheet_664
+  - first:
+      213: -5746906386186359525
+    second: _priteSheet_665
+  - first:
+      213: -3161455041482098472
+    second: _priteSheet_666
+  - first:
+      213: -6506030336970922105
+    second: _priteSheet_667
+  - first:
+      213: -6467461124270969943
+    second: _priteSheet_668
+  - first:
+      213: -420663191777943608
+    second: _priteSheet_669
+  - first:
+      213: 117188267005600297
+    second: _priteSheet_670
+  - first:
+      213: -5369037472807468032
+    second: _priteSheet_671
+  - first:
+      213: -5710882517160061672
+    second: _priteSheet_672
+  - first:
+      213: 5712297387661610483
+    second: _priteSheet_673
+  - first:
+      213: 1016481349863837268
+    second: _priteSheet_674
+  - first:
+      213: -8822525865226759920
+    second: _priteSheet_675
+  - first:
+      213: -4257638435976582152
+    second: _priteSheet_676
+  - first:
+      213: -3640166997583901261
+    second: _priteSheet_677
+  - first:
+      213: 7086603596836410383
+    second: _priteSheet_678
+  - first:
+      213: 8810631368203991639
+    second: _priteSheet_679
+  - first:
+      213: -317738826658507894
+    second: _priteSheet_680
+  - first:
+      213: 4344042110134703028
+    second: _priteSheet_681
+  - first:
+      213: -3836070099315931010
+    second: _priteSheet_682
+  - first:
+      213: 666075178455527888
+    second: _priteSheet_683
+  - first:
+      213: -8888680066901210026
+    second: _priteSheet_684
+  - first:
+      213: -2714568309017029029
+    second: _priteSheet_685
+  - first:
+      213: 5026946158221572476
+    second: _priteSheet_686
+  - first:
+      213: -4184802935659473300
+    second: _priteSheet_687
+  - first:
+      213: 637533239224053874
+    second: _priteSheet_688
+  - first:
+      213: -3960056993757736156
+    second: _priteSheet_689
+  - first:
+      213: 2178765295387342322
+    second: _priteSheet_690
+  - first:
+      213: -2194721344076504075
+    second: _priteSheet_691
+  - first:
+      213: -2072422512950136126
+    second: _priteSheet_692
+  - first:
+      213: -1944571137485473604
+    second: _priteSheet_693
+  - first:
+      213: -6268882107752546084
+    second: _priteSheet_694
+  - first:
+      213: 1895998773497548935
+    second: _priteSheet_695
+  - first:
+      213: 7571077847908238249
+    second: _priteSheet_696
+  - first:
+      213: 970128750718407353
+    second: _priteSheet_697
+  - first:
+      213: 413844948580373969
+    second: _priteSheet_698
+  - first:
+      213: -4124095592962554899
+    second: _priteSheet_699
+  - first:
+      213: 4658909405729881495
+    second: _priteSheet_700
+  - first:
+      213: 881564748974333697
+    second: _priteSheet_701
+  - first:
+      213: -243916641802824594
+    second: _priteSheet_702
+  - first:
+      213: -1701591506888341512
+    second: _priteSheet_703
+  - first:
+      213: -7935748598547810392
+    second: _priteSheet_704
+  - first:
+      213: -3166613525167825905
+    second: _priteSheet_705
+  - first:
+      213: -1267376185838726282
+    second: _priteSheet_706
+  - first:
+      213: -8257064318283372769
+    second: _priteSheet_707
+  - first:
+      213: 4053337900117597525
+    second: _priteSheet_708
+  - first:
+      213: 6429418767679059296
+    second: _priteSheet_709
+  - first:
+      213: -1787752408847283798
+    second: _priteSheet_710
+  - first:
+      213: -3875133874329913323
+    second: _priteSheet_711
+  - first:
+      213: 3246641802552416529
+    second: _priteSheet_712
+  - first:
+      213: -2493206311399628615
+    second: _priteSheet_713
+  - first:
+      213: 5354508374080094490
+    second: _priteSheet_714
+  - first:
+      213: 7258934937599687248
+    second: _priteSheet_715
+  - first:
+      213: -1128549046305017768
+    second: _priteSheet_716
+  - first:
+      213: 6843201444882708452
+    second: _priteSheet_717
+  - first:
+      213: -3923055994481965910
+    second: _priteSheet_718
+  - first:
+      213: 872365839218972562
+    second: _priteSheet_719
+  - first:
+      213: 528436053614872775
+    second: _priteSheet_720
+  - first:
+      213: -1556325959642343421
+    second: _priteSheet_721
+  - first:
+      213: -3116378158179108266
+    second: _priteSheet_722
+  - first:
+      213: -7188612630960411451
+    second: _priteSheet_723
+  - first:
+      213: -3101417295956823104
+    second: _priteSheet_724
+  - first:
+      213: 6044656533123927722
+    second: _priteSheet_725
+  - first:
+      213: -7919219466456488871
+    second: _priteSheet_726
+  - first:
+      213: 2706924398114283544
+    second: _priteSheet_727
+  - first:
+      213: -7764159176991907311
+    second: _priteSheet_728
+  - first:
+      213: -5637125905012921116
+    second: _priteSheet_729
+  - first:
+      213: 2892437809873457816
+    second: _priteSheet_730
+  - first:
+      213: -6162205773277935193
+    second: _priteSheet_731
+  - first:
+      213: 6174074377439535233
+    second: _priteSheet_732
+  - first:
+      213: 4012102792794424080
+    second: _priteSheet_733
+  - first:
+      213: 974498453878308295
+    second: _priteSheet_734
+  - first:
+      213: -7250193770019235511
+    second: _priteSheet_735
+  - first:
+      213: 6601106374716777433
+    second: _priteSheet_736
+  - first:
+      213: 498623004221786636
+    second: _priteSheet_737
+  - first:
+      213: -1730454316536107143
+    second: _priteSheet_738
+  - first:
+      213: 1661829693782435017
+    second: _priteSheet_739
+  - first:
+      213: 7446126059325870759
+    second: _priteSheet_740
+  - first:
+      213: -5497390375367696264
+    second: _priteSheet_741
+  - first:
+      213: -1293789084245794431
+    second: _priteSheet_742
+  - first:
+      213: -552452410968656931
+    second: _priteSheet_743
+  - first:
+      213: -9138287326250937224
+    second: _priteSheet_744
+  - first:
+      213: 249171029782036755
+    second: _priteSheet_745
+  - first:
+      213: -3969108180061837133
+    second: _priteSheet_746
+  - first:
+      213: -8708807875470318903
+    second: _priteSheet_747
+  - first:
+      213: 7544472368471248222
+    second: _priteSheet_748
+  - first:
+      213: -2909512045148985147
+    second: _priteSheet_749
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: _priteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14526380a906317a0800000000000000
+      internalID: -6407671630139087551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0a25893182da100800000000000000
+      internalID: 120796829633913070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba5bef0f8b3ecb30800000000000000
+      internalID: 4309447379073587895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cedbea762ca55b00800000000000000
+      internalID: 816748188708626117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d7e3c3f31b1e170800000000000000
+      internalID: 8206034881197538655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2382aade3b416ca00800000000000000
+      internalID: 776330748787042354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b01e973271a5e60800000000000000
+      internalID: 7951693533212117809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84473f111988bf7b0800000000000000
+      internalID: -5189403988961561528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979d2ee9bfbc23f00800000000000000
+      internalID: 1095161940967348601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafad5e9f49fcea30800000000000000
+      internalID: 4246042669058207658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6226d2ff1488ec570800000000000000
+      internalID: 8488872164675379750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff30fbf0a4ffd8340800000000000000
+      internalID: 4867827465814213631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38695fd52a3736810800000000000000
+      internalID: 1757375420802897539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5caa1595849f1d380800000000000000
+      internalID: -8948096895476979003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa515145e2208980800000000000000
+      internalID: -8538786525455754508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50d3f9fd1423f120800000000000000
+      internalID: 2446338733758468191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09cd6bc997593900800000000000000
+      internalID: 664658738068441354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85cd322c44171a60800000000000000
+      internalID: 7644601209709249933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 3420
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4798672ce95ac140800000000000000
+      internalID: 4740700428569188173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b044c81b48c29c0800000000000000
+      internalID: -3950636875013420251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66e32102e8374600800000000000000
+      internalID: 452392830906918510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32580d95593a3c600800000000000000
+      internalID: 487413046538437923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 4140
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd88c8864d443130800000000000000
+      internalID: 3545543771985317332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5998bce79e7bab040800000000000000
+      internalID: 4664242577578101141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9173e2d7bd55490800000000000000
+      internalID: -7758053452383053358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6f04807c83bebd0800000000000000
+      internalID: -2599921932388206931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 4860
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5255472124479050800000000000000
+      internalID: 5807185153701007965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d91ea6e7eef0a40800000000000000
+      internalID: 5336746310183787903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 5220
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918a76f33f11b07c0800000000000000
+      internalID: -4104166898979592167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b320313f0bbad0920800000000000000
+      internalID: 2958209306732986939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 5580
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d054e19d611215f0800000000000000
+      internalID: -787547822539648812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b7a3102696a8380800000000000000
+      internalID: -8968239838306600094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 5940
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab635c9366a4ce2c0800000000000000
+      internalID: -4401060932931471686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b77dc3acf863cd30800000000000000
+      internalID: 4450516291061381044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189480c8e9fcfce20800000000000000
+      internalID: 3373142925784926593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdf92791cd45d2a0800000000000000
+      internalID: -6713374175665717835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 6660
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0b81a51f8467a20800000000000000
+      internalID: 3059713198280716533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 6840
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606ded3444938cd40800000000000000
+      internalID: 5604792701621818886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 7020
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d119faf0001153610800000000000000
+      internalID: 1600203934560915741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcb6311f5d0005c0800000000000000
+      internalID: -4251383346275894092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 7380
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003ce563fa2e3f9e0800000000000000
+      internalID: -1588677001372318976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 7560
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5fffa0ed2450ae0800000000000000
+      internalID: -1583786172516141600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 7740
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfaabfc1bfb242510800000000000000
+      internalID: 1523390931481111293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 7920
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b992c6b28639c30800000000000000
+      internalID: 4364946999559691103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 8100
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba155de0ff92fb2d0800000000000000
+      internalID: -3260841429750689365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7596409d7fbc4fc90800000000000000
+      internalID: -7136855244117087913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 8460
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb94f91528cd4a20800000000000000
+      internalID: 3048312584474500094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 8640
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e6c4ff3ae3ece70800000000000000
+      internalID: 9137309568065105438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 8820
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b996714fcb7bd380800000000000000
+      internalID: -8945420104754619982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cf844a4d66f6f00800000000000000
+      internalID: 1112220696459148441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 9180
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9457315ef9e3d360800000000000000
+      internalID: 7193350308334359709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bea2d28fd87b0f70800000000000000
+      internalID: 9154543568928550580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 9540
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e7b24bb08e84890800000000000000
+      internalID: -7473468444656304489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 9720
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971640acf90d7cae0800000000000000
+      internalID: -1529024163761331847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 9900
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c84d908a702a860800000000000000
+      internalID: 7539597144472456349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 10080
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4afcdd55ea78ec0800000000000000
+      internalID: -3564688896223632219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 10260
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca707e170348b5bf0800000000000000
+      internalID: -334528403704707156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 10440
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8843a8d3609d3c020800000000000000
+      internalID: 2360969250497770632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 10620
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc95f0695335a5650800000000000000
+      internalID: 6222377324781722060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 10800
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0c9649d48c52ab0800000000000000
+      internalID: -5033396772988665652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 10980
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75adb5b0aca2ef380800000000000000
+      internalID: -8935657563394155945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 11160
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73106c46615daaf40800000000000000
+      internalID: 5740634967193813303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 11340
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb166b9428bc7be0800000000000000
+      internalID: -1478104110318871615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 11520
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab79eb9647eea54f0800000000000000
+      internalID: -839096196793460806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 11700
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591b0c732ff977c40800000000000000
+      internalID: 5510048531777368469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 11880
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ff03000cb3574f0800000000000000
+      internalID: -831692860357017738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 12060
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6919e648725d1750800000000000000
+      internalID: 6277264132163574126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 12240
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d382a0af27b0170800000000000000
+      internalID: 8145730769267473810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 12420
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e04dc2305137c8a0800000000000000
+      internalID: -6285000534452780831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 12600
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c260448d447b0e0800000000000000
+      internalID: -2254257392830763923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 12780
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c4650cd22b60110800000000000000
+      internalID: 1226863858075192435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 12960
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229dd0f3c34a437d0800000000000000
+      internalID: -2939544078103226078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 13140
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1247410ae9982b0800000000000000
+      internalID: -5581755852773907971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 13320
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8934c3dd5b89f8dd0800000000000000
+      internalID: -2481596962789637224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 13500
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df05473cfe158230800000000000000
+      internalID: 3640349942406778832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 13680
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08e7d67d1f53ccc0800000000000000
+      internalID: -3692002689361123315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 13860
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7f55a90463d98f0800000000000000
+      internalID: -532209529864718368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 14040
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbfefb659b82d520800000000000000
+      internalID: 2725394198390832060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 14220
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913491fb3c7b4e030800000000000000
+      internalID: 3523142859863180057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 14400
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d970671103ac0490800000000000000
+      internalID: -7778663231293195822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 14580
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc64f970ed0a61d10800000000000000
+      internalID: 2096039552058607309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 14760
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1314d47c9b5090030800000000000000
+      internalID: 3461304084081754417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 14940
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfaa4b6f26795f3c0800000000000000
+      internalID: -4326385415717868805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 15120
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141de8db1caa02210800000000000000
+      internalID: 1306231641023107393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 15300
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee01958bc006f2c0800000000000000
+      internalID: -4398327111961473309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 15480
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820bb292597927fa0800000000000000
+      internalID: -5804410302830497752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 15660
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dddc307e66d6b70800000000000000
+      internalID: 8893877981513899358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 15840
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2934e18404052f1a0800000000000000
+      internalID: -6777266252221103214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 16020
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e685120a8322f20800000000000000
+      internalID: 3396339329396141601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 16200
+        y: 180
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042ae9976c2375160800000000000000
+      internalID: 7014130772678189632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f0d32ceb4729700800000000000000
+      internalID: 545626867516641087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c0df60984c6f2e0800000000000000
+      internalID: -2092268884060205967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1af0b8201545140800000000000000
+      internalID: 4707476581873852890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb55d82b82cedc90800000000000000
+      internalID: -7143058056021713922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a67cced2972319d0800000000000000
+      internalID: -2804854631165036896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9b6ee28c655c4d0800000000000000
+      internalID: -3114988149476509239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c767870495317e840800000000000000
+      internalID: 5253188764405626492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63398f3638b0195f0800000000000000
+      internalID: -751807003848305866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfae395e9e5d68e0800000000000000
+      internalID: -1698597450253684802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67157751541f7ff50800000000000000
+      internalID: 6915261031865864566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd92be6abd118550800000000000000
+      internalID: 6161238451777871356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd821f452ec2dad90800000000000000
+      internalID: -7084957288184600357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d60e71675daf850800000000000000
+      internalID: 6411671722698763670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfa61065df7a88a0800000000000000
+      internalID: -6302084174134726705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a688b460bc79240800000000000000
+      internalID: 4798527155884026378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfca509259a5bfa0800000000000000
+      internalID: -5785531974213251124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2f1015e7355c920800000000000000
+      internalID: 3009903727957111492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc85dd68aea74650800000000000000
+      internalID: 6217129849028709561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 3240
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9549fe9c5dd661740800000000000000
+      internalID: 5122402391163901017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 3420
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c69d25c748ecd10800000000000000
+      internalID: 2147799741803097207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b399942dbbf3980800000000000000
+      internalID: -8556914255128347882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 3780
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a912cf92d11623730800000000000000
+      internalID: 3977348198807904666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b97066526bef6930800000000000000
+      internalID: 4138785390165260722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 4140
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cf70d869a259850800000000000000
+      internalID: 6383054872967117919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _priteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ca628da64ef5ed0800000000000000
+      internalID: -2422966926957958039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

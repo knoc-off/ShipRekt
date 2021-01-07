@@ -64,12 +64,14 @@
      <Compile Include="Assets\Scripts\playerMovement.cs" />
      <Compile Include="Assets\ThrusterDriver.cs" />
      <Compile Include="Assets\Scripts\NeedleNorth.cs" />
+     <Compile Include="Assets\Weapons\Projectiles\Cannon\CannonFireScript.cs" />
      <Compile Include="Assets\classes\FastNoiseLite.cs" />
      <Compile Include="Assets\Scripts\ShipSeperator3.cs" />
      <Compile Include="Assets\Scripts\ShipSeperator2.cs" />
      <Compile Include="Assets\sortMe.cs" />
      <Compile Include="Assets\Scripts\MoveWithShip.cs" />
      <Compile Include="Assets\Scripts\FloorMass.cs" />
+     <Compile Include="Assets\RenderScale.cs" />
      <Compile Include="Assets\Scripts\GetTileMap.cs" />
      <Compile Include="Assets\classes\FastNoise.cs" />
      <Compile Include="Assets\Scripts\RotateToShip.cs" />

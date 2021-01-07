@@ -10,30 +10,36 @@ public class PlayerWeapon : MonoBehaviour
     private Vector2 pz;
     private float angle;
     private float frames;
-
+    public bool enable = true;
     private int ammo = 20;
 
     private bool shot = true;
     void Update()
     {
 
+
         if (Input.GetButtonDown("Fire1") && shot)
         {
             shot = false;
-            frames = Time.fixedTime+(float).01;
+            frames = Time.fixedTime + (float).01;
             //print("rot start1");
             pz = camCam.ScreenToWorldPoint(Input.mousePosition);
             Vector2 lookDir = pz - rigbdy.position;
             angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
             rigbdy.rotation = angle;
         }
-        if (Time.fixedTime > frames && !shot)
+        if (Time.fixedTime > frames && !shot && enable)
         {
             ammo--;
             shot = true;
             //if(ammo > 0)
             //rigbdy.AddForce(rigbdy.transform.up * -1000);
-            shoot();
+            bool tempbool = false;
+            foreach (GameObject a in GameObject.FindGameObjectsWithTag("ShipWeapon"))
+                if (Vector3.Distance(a.transform.position, transform.position) > 1.35)
+                    tempbool = true;
+            if (tempbool)
+                shoot();
         }
 
     }

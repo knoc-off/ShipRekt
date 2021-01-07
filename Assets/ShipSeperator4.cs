@@ -13,6 +13,18 @@ public class ShipSeperator4 : MonoBehaviour
     {
         ShipLayer = GameObject.FindGameObjectWithTag("shipLayer");
 
+        compressbounds();
+    }
+
+    void compressbounds()
+    {
+        var ogShip = SetShip(0);
+        for (int i = 0; i < ogShip.ships.Count; i++) // loop through every tilemap
+        {
+            ogShip = SetShip(i);
+            ogShip.floorMap.CompressBounds();
+            ogShip.wallMap.CompressBounds();
+        }
     }
     void OnGUI()
     {
@@ -127,6 +139,8 @@ public class ShipSeperator4 : MonoBehaviour
             //print("size: " + a.size + " BoundsInt: " + a.position);
 
         }
+        compressbounds();
+
     }
 
     // ship cooker boiles down the ship to seperate bits need to pass those bits onto the shipCreator() methods
@@ -320,7 +334,7 @@ public class ShipSeperator4 : MonoBehaviour
         Tilemap wallMap1;
 
         ships1 = getObjWithTag(recursiveFindChildren(ShipLayer), "Ship");
-        print("index/ships: " + index + " / " + (ships1.Count));
+        //print("index/ships: " + index + " / " + (ships1.Count));
 
         // Initilise tuple below and return.
         (List<GameObject> ships, List<GameObject> sprites, List<GameObject> thrusters, GameObject currentShip, GameObject spriteLayer, GameObject ThrusterLayer, GameObject floor, GameObject wall, Tilemap floorMap, Tilemap wallMap) d;

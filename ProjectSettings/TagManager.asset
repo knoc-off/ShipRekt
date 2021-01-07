@@ -13,6 +13,8 @@ TagManager:
   - BackGround
   - Thruster
   - ThrusterLayer
+  - player
+  - ShipWeapon
   layers:
   - Default
   - TransparentFX
