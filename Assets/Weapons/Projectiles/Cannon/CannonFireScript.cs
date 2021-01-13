@@ -9,7 +9,6 @@ public class CannonFireScript : MonoBehaviour
     public float force = 20f;
     private Vector2 pz;
     private float angle;
-    private float frames;
     public float rotateSpeed = 0.03f;
     public ParticleSystem SmokeParticle;
 
@@ -19,7 +18,17 @@ public class CannonFireScript : MonoBehaviour
 
     //private CircleCollider2D collide;
 
-    private int ammo = 20;
+    private float ammoRegenFrames;
+
+    private float frames;
+
+    public float PreShootDelay = 1f; // cooldown time/ before delay to start shooting
+    public float PostShootDelay = 1f; // cooldown time/ after delay to start shooting
+
+    public float ammoRegenTime;
+    public int ammo = 20;
+    private int maxAmmo;
+
     private bool shot = true;
     //private bool Rotate = false;
 
@@ -27,11 +36,12 @@ public class CannonFireScript : MonoBehaviour
     void Start()
     {
         angle = transform.eulerAngles.z;
-        
+        ammoRegenTime = (PreShootDelay + PostShootDelay) * 2;
+        maxAmmo = ammo;
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
-
+        //print("ammo " + ammo);
         //camCam = collision.gameObject.gameObject.GetComponent<Camera>();
         //force = 20f;
         //pz = collision.gameObject.gameObject.GetComponent<Camera>();
@@ -44,11 +54,11 @@ public class CannonFireScript : MonoBehaviour
             //print(recursiveFindChildren());
             //print("name2 "+collision.gameObject.GetComponentInParent);
             inCollider = true;
-            foreach(var tempObj in recursiveFindChildren(tempGobj))
+            foreach (var tempObj in recursiveFindChildren(tempGobj))
             {
                 if (tempObj.GetComponent<Camera>())
                 {
-                    print(tempObj.GetComponent<Camera>().name);
+                    //print(tempObj.GetComponent<Camera>().name);
                     camCam = tempObj.GetComponent<Camera>();
                     break;
                 }
@@ -62,9 +72,9 @@ public class CannonFireScript : MonoBehaviour
     }
     void OnTriggerExit2D(Collider2D collision)
     {
-        print("exit " + collision.gameObject.name);
+        //print("exit " + collision.gameObject.name);
 
-        if(collision.gameObject.tag == "player")
+        if (collision.gameObject.tag == "player")
             inCollider = false;
     }
     //void FixedUpdate()
@@ -77,53 +87,65 @@ public class CannonFireScript : MonoBehaviour
         //print();
         if (shot)
             animator.SetBool("Fire", false);
-        foreach (GameObject a in GameObject.FindGameObjectsWithTag("player"))
+
+        bool tempbool = false;
+        if (inCollider)
         {
-            bool tempbool = false;
-            if (inCollider)
+            tempbool = true;
+            if ((Input.GetButtonDown("Fire1") && shot && Time.fixedTime > frames) && ammo > 0)
             {
-                tempbool = true;
-                if (Input.GetButtonDown("Fire1") && shot)
-                {
-                    //animator.SetBool("Fire", false);
-                    var floorRot = transform.parent.parent.GetComponent<Transform>().InverseTransformPoint(camCam.ScreenToWorldPoint(Input.mousePosition));
+                //animator.SetBool("Fire", false);
+                var floorRot = transform.parent.parent.GetComponent<Transform>().InverseTransformPoint(camCam.ScreenToWorldPoint(Input.mousePosition));
+                //Rotate = true;
+                shot = false;
+                ammoRegenFrames = ammoRegenTime + Time.fixedTime;
+                frames = Time.fixedTime + PreShootDelay;
+                //print("rot start1");
+                //rotationDegreesAmount = angle;
+                pz = floorRot;// camCam.ScreenToWorldPoint(Input.mousePosition);
+                Vector2 lookDir = pz - (Vector2)transform.localPosition;
+                angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
 
-                    //Rotate = true;
-                    shot = false;
-                    frames = Time.fixedTime + 1.2f;
-                    //print("rot start1");
-                    //rotationDegreesAmount = angle;
-                    pz = floorRot;
-                    Vector2 lookDir = pz - (Vector2)transform.localPosition;
-                    angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
-
-                    print("angle " + angle + " Atan2+delta ");
-                }
-                //if (Rotate)
-                //{
-                //    //transform.eulerAngles = new Vector3(0, 0, angle);
-                //    RotateTo(angle);
-                //}
-
-                if (RotateTo(angle) && Time.fixedTime > frames && !shot)
-                {
-                    ammo--;
-                    shot = true;
-                    //if(ammo > 0)
-                    //rigbdy.AddForce(rigbdy.transform.up * -1000);
-                    // = firePoint.gameObject.GetComponent<ParticleSystem>();
-                    SmokeParticle.Play();
-
-                    animator.SetBool("Fire", true);
-
-                    shoot();
-                }
-
-
+                //print("angle " + angle + " Atan2+delta ");
             }
-            if (!tempbool)
+            //if (Rotate)
+            //{
+            //    //transform.eulerAngles = new Vector3(0, 0, angle);
+            //    RotateTo(angle);
+            //}
+
+            if ((RotateTo(angle) && Time.fixedTime > frames && !shot) && ammo > 0)
+            {
+                ammoRegenFrames = ammoRegenTime + Time.fixedTime;
+
+
+                //print("post cooldown " + frames);
+                frames = Time.fixedTime + PostShootDelay;
+
+                ammo--;
                 shot = true;
+                //if(ammo > 0)
+                //rigbdy.AddForce(rigbdy.transform.up * -1000);
+                // = firePoint.gameObject.GetComponent<ParticleSystem>();
+                SmokeParticle.Play();
+
+                animator.SetBool("Fire", true);
+
+                shoot();
+            }
+
+
         }
+        if (!tempbool)
+            shot = true;
+
+        if (Time.fixedTime > ammoRegenFrames && ammo < maxAmmo)
+        {
+            ammoRegenFrames = ammoRegenTime + Time.fixedTime;
+            ammo++;
+            //print("ammo " + ammo);
+        }
+
         //else
         //{
         //    angle = 0;
@@ -135,8 +157,8 @@ public class CannonFireScript : MonoBehaviour
     {
         //Quaternion newRotation = Quaternion.AngleAxis(angle, Vector3.up);
         Vector3 newRotation = new Vector3(0, 0, angle);
-        transform.eulerAngles = new Vector3(0, 0, Mathf.Lerp(transform.eulerAngles.z, transform.eulerAngles.z + Mathf.DeltaAngle(transform.eulerAngles.z, angle), rotateSpeed)); //Quaternion.Slerp(transform.rotation, newRotation, .05f);
-        if (Mathf.Abs(Mathf.DeltaAngle(transform.eulerAngles.z, angle)) < 2)
+        transform.localEulerAngles = new Vector3(0, 0, Mathf.Lerp(transform.localEulerAngles.z, transform.localEulerAngles.z + Mathf.DeltaAngle(transform.localEulerAngles.z, angle), rotateSpeed)); //Quaternion.Slerp(transform.rotation, newRotation, .05f);
+        if (Mathf.Abs(Mathf.DeltaAngle(transform.localEulerAngles.z, angle)) < 2)
             return true;
         return false;
     }

@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -9,26 +8,39 @@ public class TimeOut : MonoBehaviour
     public GameObject HitEffect;
     public GameObject thisBullet;
     private float time;
-
+    public bool timeOut;
+    public float TimeOutTime;
+    public float DestroyTimeOut = 2;
 
     // Start is called before the first frame update
     void Start()
     {
-        time = Time.fixedTime+1;
+        time = Time.fixedTime + TimeOutTime;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (thisBullet.GetComponent<Rigidbody2D>().velocity.sqrMagnitude < .6)
+        if (timeOut)
+        {
+            if (time < Time.fixedTime)
+            {
+                Destroy(thisBullet);
+                GameObject effect = Instantiate(HitEffect, transform.position, new Quaternion());
+                Destroy(effect, DestroyTimeOut);
+            }
+        }
+        else
+            if (thisBullet.GetComponent<Rigidbody2D>().velocity.sqrMagnitude < .6)
             Destroy(thisBullet);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         var TempShip = SetShip(0);
-        GameObject effect = Instantiate(HitEffect, transform.position, collision.gameObject.transform.rotation);
-        Destroy(effect, .5f);
+        GameObject effect = Instantiate(HitEffect, transform.position, transform.rotation);
+        effect.transform.eulerAngles = new Vector3(0, 0, -effect.transform.eulerAngles.z);
+        Destroy(effect, DestroyTimeOut);
         Destroy(gameObject);
 
     }

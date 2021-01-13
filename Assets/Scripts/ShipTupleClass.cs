@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -10,7 +9,7 @@ public class ShipTupleClass
     public (List<GameObject> ships, List<GameObject> sprites, GameObject currentShip, GameObject spriteLayer, GameObject floor, GameObject wall, Tilemap floorMap, Tilemap wallMap) SetShip(int index)
     {
         if (shipLayer == null)
-            Debug.LogError("ShipLayer is null. set shiplayer to obj");
+            shipLayer = GameObject.FindGameObjectWithTag("shipLayer");
 
         List<GameObject> ships1 = new List<GameObject>();
         List<GameObject> sprites1 = new List<GameObject>();

@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class NoiseGenChunks : MonoBehaviour
@@ -13,57 +13,206 @@ public class NoiseGenChunks : MonoBehaviour
     public float offsetY;
     public float RandOffsetX;
     public float RandOffsetY;
-    public float div = 1;
+    [Range(0.0f, 20.0f)]
+    public float StepAmmount = 1;
     private FastNoiseLite noise = new FastNoiseLite();
     [Range(-1.0f, 1.0f)]
     public float mult = -.3f;
-    
+    [Range(0.001f, 2.0f)]
+    public float cooldown;
+
+    //[Range(-200.0f, 200.0f)]
+    public float stepNumber = 0f;
+
     public int tempint;
 
+    public float tempVal;
+
+    public bool Animate = true;
+
+    public Thread TexThread;
+
+    public bool IsThreadRunning = false;
+
+
+
+    //Thread Variables
+    List<List<(Vector2 pos, Color[] pixles)>> VectorList2D;
+
+
+    //Thread Variables
 
     List<List<(int index, Vector2 pos, Renderer rend, List<GameObject> Backings, GameObject obj)>> TwoDtiles;
     // Start is called before the first frame update
     void Start()
     {
 
+
+
         GetBackDat(0).rend.enabled = true;
         InitChunks();
+
 
         width = (int)TwoDtiles[0][0].obj.transform.localScale.x;
         height = (int)TwoDtiles[0][0].obj.transform.localScale.y;
 
+        SetVariables();
+
+        TexThread = new Thread(generate2D);
 
         //renderer = GetComponent<Renderer>();    // change this to look in children
-
+        TexThread.Start();
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
+        //if player is bottom left 
         if (Time.fixedTime > delay)
         {
 
+            if (cam.position.x < TwoDtiles[1][1].obj.transform.position.x - width / 2)
+            {
+                print("left");
+                TwoDtiles.Insert(0, TwoDtiles[2]);
+                TwoDtiles.RemoveAt(3);
+
+            }
+            if (cam.position.x > TwoDtiles[1][1].obj.transform.position.x + width / 2)
+            {
+                print("right");
+                TwoDtiles.Add(TwoDtiles[0]);
+                TwoDtiles.RemoveAt(0);
+            }
+            if (cam.position.y > TwoDtiles[1][1].obj.transform.position.y + height / 2)
+            {
+                print("up");
+                foreach (var k in TwoDtiles)
+                {
+                    k.Add(k[0]);
+                    k.RemoveAt(0);
+                }
+
+
+            }
+            if (cam.position.y < TwoDtiles[1][1].obj.transform.position.y - width / 2)
+            {
+                print("down");
+                foreach (var k in TwoDtiles)
+                {
+                    k.Insert(0, k[2]);
+                    k.RemoveAt(3);
+                }
+            }
+
+            transformChunks();
 
             
 
-            delay = Time.fixedTime + 1;
-            try
+            delay = Time.fixedTime + cooldown;
+
+
+
+
+            stepNumber += StepAmmount;
+            print("thread state: "+ TexThread.ThreadState);
+
+            if (TexThread.ThreadState == System.Threading.ThreadState.Stopped)
             {
-                generate2D(TwoDtiles);
+                for (int x = 1; x >= -1; x--)
+                {
+                    for (int y = 1; y >= -1; y--)
+                    {
+
+                        Texture2D tempa = new Texture2D(width, height);
+                        tempa.SetPixels(VectorList2D[x + 1][y + 1].pixles);
+
+                        tempa.filterMode = FilterMode.Point;
+                        tempa.Apply();
+
+                        TwoDtiles[x + 1][y + 1].rend.material.mainTexture = tempa;
+                    }
+                }
+                SetVariables();
             }
-            catch
+            if (TexThread.ThreadState == System.Threading.ThreadState.Stopped)
             {
-                initilizeTiles();
-                generate2D(TwoDtiles);
+                TexThread.Abort();
+                TexThread.Start();
             }
 
+            //if (TexThread.IsAlive)
+            //{
+            //    print("still running");
+            //}
+            //else
+            //{
+            //    print("Done");
+            //    ;
+            //}
+
+
+                //    System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
+                //try
+                //{
+                //    generate2D();
+                //}
+                //catch
+                //{
+                //    initilizeTiles();
+                //    generate2D();
+                //}
+                //print("texture generation took : " + sw.ElapsedMilliseconds + " ms");
         }
+    }
+
+    void SetVariables() // called outside of 2nd thread
+    {
+
+
+        noise.SetNoiseType(FastNoiseLite.NoiseType.Cellular);
+        noise.SetFractalType(FastNoiseLite.FractalType.None);
+
+        var Tiles = new List<(Vector2 pos, Color[] pixles)>(); // this adds all the instantiated tiles to a var
+                                                                  //for (int i = 0; i < GetBackDat(0).Backings.Count; i++)
+                                                                  //    Tiles.Add(GetBackDat(i));
+        var Tiles2D = new List<List<(Vector2 pos, Color[] pixles)>>();
+        int index = 0;
+
+        for (int x = 1; x >= -1; x--)
+        {
+            for (int y = 1; y >= -1; y--)
+            {
+                Tiles.Add((new Vector2(TwoDtiles[x + 1][y + 1].pos.x, TwoDtiles[x + 1][y + 1].pos.y), new Color[width*height])); // could do some optimisiation find size of colors
+                index++;
+
+            }
+            Tiles.Reverse();
+
+            Tiles2D.Add(new List<(Vector2 pos, Color[] pixles)>(Tiles)); // should end up with 3 rows of 3 tile tuples
+
+            Tiles.Clear();
+        }
+
+
+        VectorList2D = Tiles2D;
+
+
     }
 
     void transformChunks()
     {
 
+        Vector2 CenterTilePos = TwoDtiles[1][1].obj.transform.position;
 
+        for (int x = 1; x >= -1; x--)
+        {
+            for (int y = 1; y >= -1; y--)
+            {
+                TwoDtiles[x + 1][y + 1].obj.transform.position = new Vector3(CenterTilePos.x + (x * width), CenterTilePos.y + (y * height), 0);
+
+            }
+        }
 
 
 
@@ -71,7 +220,7 @@ public class NoiseGenChunks : MonoBehaviour
 
     }
 
-    void InitChunks()   
+    void InitChunks()
     {
         var tempBackings = GetBackDat(0);
         tempBackings.obj.name = "1";
@@ -79,16 +228,13 @@ public class NoiseGenChunks : MonoBehaviour
         {
             GameObject gameobj = Instantiate(tempBackings.obj);
             gameobj.transform.SetParent(tempBackings.obj.transform.parent);
-            gameobj.name ="" + i;
+            gameobj.name = "" + i;
         }
 
 
         initilizeTiles();
-        
+
         //Tiles2D[0].Add(GetBackDat(0));
-
-        generate2D(TwoDtiles);
-
     }
 
     void initilizeTiles()
@@ -109,67 +255,69 @@ public class NoiseGenChunks : MonoBehaviour
             {
                 Tiles.Add(GetBackDat(index));
                 index++;
-                
+
             }
             Tiles.Reverse();
             Tiles2D.Add(new List<(int index, Vector2 pos, Renderer rend, List<GameObject> Backings, GameObject obj)>(Tiles)); // should end up with 3 rows of 3 tile tuples
-            
+
             Tiles.Clear();
         }
-
         
+
         TwoDtiles = Tiles2D;
+
     }
-    void generate2D(List<List<(int index, Vector2 pos, Renderer rend, List<GameObject> Backings, GameObject obj)>> Tiles2D)
+    void generate2D()//List<List<(int index, Vector2 pos, Renderer rend, List<GameObject> Backings, GameObject obj)>> Tiles2D
     {
+        IsThreadRunning = true;
         int index = 0;
         for (int x = 1; x >= -1; x--)
         {
             for (int y = 1; y >= -1; y--)
             {
-                // multiply by the width 
-                //Tiles2D[x + 1][y + 1].rend.sortingLayerID = tempint;
-                //print(Tiles2D[x + 1][y + 1].rend.sortingLayerID);
-                Tiles2D[x + 1][y + 1].obj.transform.position = new Vector3(x * Tiles2D[x + 1][y + 1].obj.transform.localScale.x, y * Tiles2D[x + 1][y + 1].obj.transform.localScale.y, 0);
-                var offX = scale * x; //multiply offset by x/y to get proper offsets
-                var offY = scale * y; //multiply offset by x/y to get proper offsets
-                
-                Tiles2D[x + 1][y + 1].rend.material.mainTexture = GenerateTexture(offX,offY);
+                var offX = (VectorList2D[x + 1][y + 1].pos.x - (width / 2)) * scale / width; //multiply offset by x/y to get proper offsets|WHY 7.5!
+                var offY = (VectorList2D[x + 1][y + 1].pos.y - (height / 2)) * scale / height; //multiply offset by x/y to get proper offsets|WHY 7.5!
+
+                //TwoDtiles[x + 1][y + 1].rend.material.mainTexture = GenerateTexture(offX, offY);
+                VectorList2D[x + 1][y + 1] = (new Vector2(VectorList2D[x + 1][y + 1].pos.x, VectorList2D[x + 1][y + 1].pos.y), GenerateTexture(offX, offY));
                 index++;
 
             }
         }
+        IsThreadRunning = false;
+        //TexThread.Abort();
     }
-    Texture2D GenerateTexture(float offX, float offY)
+    Color[] GenerateTexture(float offX, float offY)
     {
-        Texture2D texture = new Texture2D(width, height);
-        texture.filterMode = FilterMode.Point;
-
+        //Texture2D texture = new Texture2D(width, height);
+        Color[] Colors = new Color[width * height];
+        var index = 0;
         for (int x = 0; x < width; x++)
         {
             for (int y = 0; y < height; y++)
             {
                 Color color = CalculateColor(x, y, offX, offY);
                 //color.b = 256;
-                var div = 1;
+
 
                 color *= mult; // brightness. lower is brighter ie -1 vs -.3
-                
-                color += new Color((float)(0.3671875 * div), (float)(0.609 * div), (float)(.609 * div)); // roughly the color that i want;
 
+                color += new Color((float)(0.3671875), (float)(0.609), (float)(.609)); // roughly the color that i want;
 
-                texture.SetPixel(x, y, color);
+                Colors[index] = color;
+                //texture.SetPixel(x, y, color);
 
 
                 //texture.SetPixels(x, y, 5, 5, colors);
+                index++;
             }
         }
-        texture.filterMode = FilterMode.Point;
 
-        texture.Apply();
-        texture.filterMode = FilterMode.Point;
+        //texture.filterMode = FilterMode.Point;
 
-        return texture;
+        //texture.Apply();
+
+        return Colors;
     }
     Color CalculateColor(int x, int y, float offX, float offY)
 
@@ -178,7 +326,7 @@ public class NoiseGenChunks : MonoBehaviour
         float xCoord = ((float)(x) / width * scale + offX); // tweak these functions to give a overall nicer zoom and everything
         float yCoord = ((float)(y) / height * scale + offY);// tweak these functions to give a overall nicer zoom and everything
 
-        float sample = noise.GetNoise(xCoord, yCoord);//noise.GetSimplex(xCoord, yCoord); //noise.GetPerlin(xCoord,yCoord);//Mathf.PerlinNoise(xCoord, yCoord);
+        float sample = noise.GetNoise(xCoord, yCoord, stepNumber);//noise.GetSimplex(xCoord, yCoord); //noise.GetPerlin(xCoord,yCoord);//Mathf.PerlinNoise(xCoord, yCoord);
         return new Color(sample, sample, sample);
 
 
@@ -213,7 +361,7 @@ public class NoiseGenChunks : MonoBehaviour
         //left
 
         TwoDtiles.Insert(0, TwoDtiles[2]);  // Inserts "Eve" at the first position in the list
-        TwoDtiles.RemoveAt(TwoDtiles.Count-1);  // Removes the first "Eve" element in the list
+        TwoDtiles.RemoveAt(TwoDtiles.Count - 1);  // Removes the first "Eve" element in the list
 
     }
 

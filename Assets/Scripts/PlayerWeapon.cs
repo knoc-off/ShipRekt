@@ -17,10 +17,11 @@ public class PlayerWeapon : MonoBehaviour
     void Update()
     {
 
-
         if (Input.GetButtonDown("Fire1") && shot)
         {
-            shot = false;
+            if (enable)
+                shot = false;
+
             frames = Time.fixedTime + (float).01;
             //print("rot start1");
             pz = camCam.ScreenToWorldPoint(Input.mousePosition);
@@ -42,6 +43,22 @@ public class PlayerWeapon : MonoBehaviour
                 shoot();
         }
 
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        //print("Exit " + collision.gameObject.name);
+
+        if (collision.gameObject.tag == "ShipWeapon")
+            enable = true;
+    }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        //print("Enter " + collision.gameObject.name);
+
+        if (collision.gameObject.tag == "ShipWeapon")
+            enable = false;
+        //    inCollider = false;
     }
 
     void shoot()

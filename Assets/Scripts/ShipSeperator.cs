@@ -40,7 +40,7 @@ public class ShipSeperator : MonoBehaviour
         mousey = pz.y;
 
         if (Input.GetAxis("Fire1") == 1 && lastframe + 100 < Time.frameCount)
-        { 
+        {
             lastframe = Time.frameCount;
 
             if (enable)

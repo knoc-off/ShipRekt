@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class ThrusterDriver : MonoBehaviour
@@ -9,8 +8,8 @@ public class ThrusterDriver : MonoBehaviour
 
     public void Start()
     {
-        
-        for(int i = 0; i < setThruster(0).thrusters.Count; i++)
+
+        for (int i = 0; i < setThruster(0).thrusters.Count; i++)
         {
             thrusters.Add(setThruster(i).currentThruster.GetComponent<ThrustTest>().force);
         }
@@ -22,10 +21,10 @@ public class ThrusterDriver : MonoBehaviour
         try
         {
 
-        for (int i = 0; i < setThruster(0).thrusters.Count; i++)
-        {
-            setThruster(i).currentThruster.GetComponent<ThrustTest>().force = thrusters[i];
-        }
+            for (int i = 0; i < setThruster(0).thrusters.Count; i++)
+            {
+                setThruster(i).currentThruster.GetComponent<ThrustTest>().force = thrusters[i];
+            }
         }
         catch
         {
@@ -53,10 +52,10 @@ public class ThrusterDriver : MonoBehaviour
 
         //print("ship: " + ships[index].name);
         //GameObject k = ships[index];
-        if(thrusters.Count != 0)
+        if (thrusters.Count != 0)
         {
-        currentThruster = thrusters[index];                         // the index of 0 here is just to turn the list into obj
-        particle = currentThruster.GetComponent<ParticleSystem>();
+            currentThruster = thrusters[index];                         // the index of 0 here is just to turn the list into obj
+            particle = currentThruster.GetComponent<ParticleSystem>();
         }
         else
         {

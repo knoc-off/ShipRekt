@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public class GetTileMap : MonoBehaviour
@@ -12,9 +10,9 @@ public class GetTileMap : MonoBehaviour
     void Update()
     {
         Tiles = shiplayers.GetComponentsInChildren(typeof(Tilemap)); // hopefully i can itterate through the tiles with this somehow?
-        //for(int i = 0; i < Tiles.Length; i++)
-         
+                                                                     //for(int i = 0; i < Tiles.Length; i++)
+
         //Debug.Log(Tiles[i]);
-        
+
     }
 }

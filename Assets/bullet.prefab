@@ -135,8 +135,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 027dc08c75fe0934a9c39dc135735711, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HitEffect: {fileID: 3862954199017355665, guid: 1de050ba4a22c0345b5c891e3b5de8c3, type: 3}
+  HitEffect: {fileID: 6529288517430590443, guid: 4a6f0521254404442a378e4fbd8e9a4d, type: 3}
   thisBullet: {fileID: 672735132289832147}
+  timeOut: 0
+  TimeOutTime: 0
+  DestroyTimeOut: 2
 --- !u!96 &-268159856214281578
 TrailRenderer:
   serializedVersion: 2

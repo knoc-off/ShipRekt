@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public class TilemapTest : MonoBehaviour
@@ -33,7 +31,7 @@ public class TilemapTest : MonoBehaviour
         {
             // set the new tile
             highlightMap.SetTile(currentCell, highlightTile);
-             
+
             // erase previous
             highlightMap.SetTile(previous, null);
 

@@ -105,7 +105,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!58 &9001841256542879313
 CircleCollider2D:
@@ -135,8 +135,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 027dc08c75fe0934a9c39dc135735711, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HitEffect: {fileID: 3862954199017355665, guid: 1de050ba4a22c0345b5c891e3b5de8c3, type: 3}
+  HitEffect: {fileID: 3593519153970618101, guid: e89f0e32e7c6a2748b3338246556fa7b, type: 3}
   thisBullet: {fileID: 6951980713087599597}
+  timeOut: 0
+  TimeOutTime: 0
+  DestroyTimeOut: 2
 --- !u!96 &1543365375807743400
 TrailRenderer:
   serializedVersion: 2

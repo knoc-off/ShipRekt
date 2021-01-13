@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -11,8 +10,6 @@ public class playerMovement : MonoBehaviour
     public Animator animator;
     public Transform cam;
     public Camera camCam;
-    private GameObject[] ships;
-    private Tilemap tempMap;
     private bool OnTile;
     private float tempTime;
     Vector2 movement;
@@ -87,7 +84,7 @@ public class playerMovement : MonoBehaviour
 
         ShipVelocity = tempShip.floorMap.GetComponent<Rigidbody2D>().GetPointVelocity(new Vector2(transform.position.x, transform.position.y));
         if (!OnTile)
-            ShipVelocity = new Vector2(0,0);
+            ShipVelocity = new Vector2(0, 0);
         Vector2 pz = camCam.ScreenToWorldPoint(Input.mousePosition);
 
         Vector3 camF = cam.up;
@@ -95,7 +92,7 @@ public class playerMovement : MonoBehaviour
 
         camF = camF.normalized;
         camR = camR.normalized;
-        rb.velocity = ShipVelocity*1.02f;
+        rb.velocity = ShipVelocity * 1.02f;
         //transform.position += (camF * (movement.y+ (ShipVelocity.y / 4)) + camR * (movement.x+ (ShipVelocity.x / 4))) * Time.fixedDeltaTime * moveSpeed; //new Vector3(movement.x, movement.y, 0) * Time.fixedDeltaTime *  moveSpeed;
 
         //transform.position += new Vector3((ShipVelocity.x/10), (ShipVelocity.y/10), 0);
@@ -121,10 +118,10 @@ public class playerMovement : MonoBehaviour
 
 
 
-        if (Input.GetAxis("Fire1") == 1 )
+        if (Input.GetAxis("Fire1") == 1)
         {
             //print("rot start2");
-            tempTime = Time.fixedTime+(float).5;
+            tempTime = Time.fixedTime + (float).5;
             //Vector2 lookDir = pz - rb.position;
             //angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
         }
