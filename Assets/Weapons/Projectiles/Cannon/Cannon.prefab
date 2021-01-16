@@ -103,7 +103,7 @@ MonoBehaviour:
   firePoint: {fileID: 7015469259869874389}
   bulletPrefab: {fileID: 6951980713087599597, guid: 39f5d4106a9184f408d3b32e0438b49d, type: 3}
   force: 25
-  rotateSpeed: 0.06
+  rotateSpeed: 0.015
   SmokeParticle: {fileID: 3597053305761456504}
   animator: {fileID: -4999587326712284115}
   inCollider: 0
