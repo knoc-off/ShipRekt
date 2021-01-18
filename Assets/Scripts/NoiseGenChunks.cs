@@ -105,10 +105,14 @@ public class NoiseGenChunks : MonoBehaviour
                         Texture2D tempa = new Texture2D(width, height);
                         tempa.SetPixels(VectorList2D[x][y].pixles);
 
+
                         tempa.filterMode = FilterMode.Point;
                         tempa.Apply();
 
                         TwoDtiles[y][x].rend.material.mainTexture = tempa;
+
+
+
                     }
                 }
 
@@ -118,17 +122,29 @@ public class NoiseGenChunks : MonoBehaviour
                     TwoDtiles.Insert(0, TwoDtiles[2]);
                     TwoDtiles.RemoveAt(3);
 
+                    VectorList2D.Insert(0, VectorList2D[2]);
+                    VectorList2D.RemoveAt(3);
+
                 }
                 if (cam.position.x > TwoDtiles[1][1].obj.transform.position.x + width / 2)
                 {
                     print("right");
                     TwoDtiles.Add(TwoDtiles[0]);
                     TwoDtiles.RemoveAt(0);
+
+                    VectorList2D.Add(VectorList2D[0]);
+                    VectorList2D.RemoveAt(0);
+
                 }
                 if (cam.position.y > TwoDtiles[1][1].obj.transform.position.y + height / 2)
                 {
                     print("up");
                     foreach (var k in TwoDtiles)
+                    {
+                        k.Add(k[0]);
+                        k.RemoveAt(0);
+                    }
+                    foreach (var k in VectorList2D)
                     {
                         k.Add(k[0]);
                         k.RemoveAt(0);
@@ -140,6 +156,11 @@ public class NoiseGenChunks : MonoBehaviour
                 {
                     print("down");
                     foreach (var k in TwoDtiles)
+                    {
+                        k.Insert(0, k[2]);
+                        k.RemoveAt(3);
+                    }
+                    foreach (var k in VectorList2D)
                     {
                         k.Insert(0, k[2]);
                         k.RemoveAt(3);
@@ -258,7 +279,7 @@ public class NoiseGenChunks : MonoBehaviour
         {
             for (int y = 1; y >= -1; y--)
             {
-                Tiles.Add((new Vector2(TwoDtiles[x+1][y + 1].obj.transform.position.x, TwoDtiles[x + 1][y + 1].obj.transform.position.y), new Color[width*height])); // could do some optimisiation find size of colors
+                Tiles.Add((new Vector2(TwoDtiles[x+1][y + 1].obj.transform.position.y, TwoDtiles[x + 1][y + 1].obj.transform.position.x), new Color[width*height])); // could do some optimisiation find size of colors
                 index++;
 
             }

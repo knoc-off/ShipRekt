@@ -70,6 +70,7 @@
      <Compile Include="Assets\classes\FastNoiseLite.cs" />
      <Compile Include="Assets\Scripts\ShipSeperator3.cs" />
      <Compile Include="Assets\Scripts\ShipSeperator2.cs" />
+     <Compile Include="Assets\RaycastMask.cs" />
      <Compile Include="Assets\sortMe.cs" />
      <Compile Include="Assets\Weapons\Projectiles\Missile\MissileScript.cs" />
      <Compile Include="Assets\Scripts\MoveWithShip.cs" />
@@ -87,7 +88,8 @@
      <Compile Include="Assets\TestStuffs\SpriteUVToShader.cs" />
      <Compile Include="Assets\Scripts\ShipTupleClass.cs" />
      <Compile Include="Assets\Scripts\ShipSeperator.cs" />
-     <Compile Include="Assets\RaycastMask.cs" />
+     <Compile Include="Assets\MultiThreadChunkGen.cs" />
+     <Compile Include="Assets\classes\VariableConstructScripts\BackgroundVariableTest.cs" />
      <None Include="Assets\TestStuffs\spritePixelated.shader" />
  <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
  <HintPath>C:/Users/Niko/ShipRekt/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
